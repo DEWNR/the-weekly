@@ -6,13 +6,15 @@ var cssnext = require('cssnext');
 var gulp = require('gulp');
 var mqpacker = require('css-mqpacker');
 var postcss = require('gulp-postcss');
-var rucksack = require('rucksack')
+var rucksack = require('gulp-rucksack');
 var sass = require('gulp-sass');
+var sourcemaps   = require('gulp-sourcemaps');
 
 var src = {
     scss: 'src/stylesheets/**/*.scss',
     images: 'src/images/**/*.png',
     html: 'src/html/**/*.html',
+    scripts: 'src/scripts/**/*.js',
     fonts: 'src/fonts/**/*.*'
 };
 
@@ -38,6 +40,15 @@ gulp.task('templates', function() {
 });
 
 
+// Scripts
+gulp.task('scripts', function() {
+    return gulp.src(src.scripts)
+        .pipe(gulp.dest('./dist/js'))
+        .pipe(browserSync.stream());
+});
+
+
+
 // Fonts
 gulp.task('fonts', function() {
     return gulp.src(src.fonts)
@@ -58,12 +69,18 @@ gulp.task('images', function() {
 gulp.task('styles', function() {
     var processors = [
         ant,
-        autoprefixer({browsers:['last 2 versions']})
+        rucksack,
+        autoprefixer({browsers:['last 2 versions']}),
+        mqpacker,
+        cssnano
     ]
 
     return gulp.src('./src/stylesheets/main.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass())
+        .pipe(rucksack())
         .pipe(postcss(processors))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./dist/css'))
         .pipe(browserSync.stream());
 });

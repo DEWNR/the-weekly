@@ -7,8 +7,8 @@ body {
     font-family: 'Frutiger W01', sans-serif;
     font-weight: 400;
     color: #494847;
-    font-size: responsive 12px 21px; /* min-size, max-size */
-    font-range: 420px 1280px; /* viewport widths between which font-size is fluid */
+    font-size: responsive 14px 16px;
+    font-range: 768px 1280px;
 }
 
 a {

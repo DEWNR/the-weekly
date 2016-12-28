@@ -114,7 +114,8 @@ linters:
   PropertySpelling:
     enabled: true
     extra_properties: [
-        'font-range'
+        'font-range',
+        'generate-grid'
     ]
 
   PropertyUnits:
