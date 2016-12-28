@@ -45,9 +45,9 @@
     display: flex;
     transition: background-color 0.5s ease;
 
-    .teaser:focus &,
-    .teaser:hover & {
-        background: darken(#5e5c5c, 10%);
+    .teaser__content:focus &,
+    .teaser__content:hover & {
+        background: darken(#5e5c5c, 20%);
     }
 }
 
