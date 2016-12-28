@@ -33,16 +33,24 @@
         display: flex;
     }
 
-    .featured-post__title {
+    .featured-post__description-words {
         align-self: center;
+        padding: 14px 25px 10px;
+
+        p {
+            color: #fff;
+        }
+
+
+        @media (min-width: 768px) {
+            padding: 14px 15px 10px;
+        }
+    }
+
+    .featured-post__title {
         color: #fff;
         font-family: 'Dewnrger', 'Frutiger W01', sans-serif;
         font-size: responsive 18px 22px;
         font-range: 768px 1280px;
         margin: 0;
-        padding: 14px 25px 10px;
-
-        @media (min-width: 768px) {
-            padding: 14px 30px 10px;
-        }
     }

@@ -18,17 +18,47 @@ a {
 }
 
 .site-header {
-    display: none;
+    margin: 0 auto;
+    max-width: 1004px;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+        padding: 20px;
+    }
 }
 
-    .site-header__logo {
-        display: block;
+    .site-header__container {
+        text-align: justify;
+        font-size: 0;
+        line-height: 1;
+
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+        }
+    }
+
+    .site-header__item--logo {
 
         img {
             display: block;
             max-width: 100%;
             width: 100%;
         }
+    }
+
+    .site-header__item {
+        display: inline-block;
+        vertical-align: middle;
+
+        img {
+            display: block;
+        }
+    }
+
+    .site-header__item--partner-logo {
+        padding: 0 10px;
     }
 
 
