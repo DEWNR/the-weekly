@@ -1,3 +1,4 @@
+@import 'featured-post';
 @import 'teaser';
 
 html,
@@ -29,3 +30,19 @@ a {
             width: 100%;
         }
     }
+
+
+.site-hero {
+    background: darkblue;
+}
+
+
+.site-hero__content {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 5px;
+
+    @media (min-width: 768px) {
+        padding: 10px;
+    }
+}
