@@ -1,3 +1,29 @@
+@import '_teaser';
+
+html,
 body {
-    background: blue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Frutiger W01', sans-serif;
+    font-weight: 400;
+    color: #494847;
 }
+
+a {
+    color: #494847;
+    text-decoration: none;
+}
+
+.site-header {
+    display: none;
+}
+
+    .site-header__logo {
+        display: block;
+
+        img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
