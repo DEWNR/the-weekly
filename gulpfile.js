@@ -9,6 +9,8 @@ var postcss = require('gulp-postcss');
 var rucksack = require('gulp-rucksack');
 var sass = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
+var gutil = require('gulp-util');
+var critical = require('critical').stream;
 
 var src = {
     scss: 'src/stylesheets/**/*.scss',
@@ -62,6 +64,15 @@ gulp.task('images', function() {
     return gulp.src(src.images)
         .pipe(gulp.dest('./dist/images'))
         .pipe(browserSync.stream());
+});
+
+
+// Generate & Inline Critical-path CSS
+gulp.task('critical', function () {
+    return gulp.src('dist/*.html')
+        .pipe(critical({base: 'dist/', inline: true, minify: true, css: ['dist/css/main.css']}))
+        .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+        .pipe(gulp.dest('dist'));
 });
 
 
