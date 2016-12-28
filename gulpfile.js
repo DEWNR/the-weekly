@@ -12,7 +12,8 @@ var sass = require('gulp-sass');
 var src = {
     scss: 'src/stylesheets/**/*.scss',
     images: 'src/images/**/*.png',
-    html: 'src/html/**/*.html'
+    html: 'src/html/**/*.html',
+    fonts: 'src/fonts/**/*.*'
 };
 
 // Static Server + watching scss/html files
@@ -25,6 +26,7 @@ gulp.task('serve', ['styles'], function() {
     gulp.watch(src.scss, ['styles']);
     gulp.watch(src.html, ['templates']);
     gulp.watch(src.images, ['images']);
+    gulp.watch(src.fonts, ['fonts']);
 });
 
 
@@ -32,6 +34,14 @@ gulp.task('serve', ['styles'], function() {
 gulp.task('templates', function() {
     return gulp.src(src.html)
         .pipe(gulp.dest('./dist'))
+        .pipe(browserSync.stream());
+});
+
+
+// Fonts
+gulp.task('fonts', function() {
+    return gulp.src(src.fonts)
+        .pipe(gulp.dest('./dist/fonts'))
         .pipe(browserSync.stream());
 });
 
@@ -58,4 +68,4 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve', 'templates', 'images']);
+gulp.task('default', ['serve', 'templates', 'images', 'fonts']);

@@ -14,7 +14,8 @@
 }
 
 .teaser {
-    margin: 0;
+    margin: 0 0 20px;
+    position: relative;
 }
 
 .teaser__content {
@@ -29,19 +30,29 @@
     background: #5e5c5c;
     height: 100%;
     display: flex;
+    transition: background-color 0.5s ease;
+
+    .teaser:focus &,
+    .teaser:hover & {
+        background: darken(#5e5c5c, 10%);
+    }
+}
+
+.teaser__url {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 
 .teaser__title {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     align-self: center;
-
-    a {
-        color: #fff;
-        padding: 20px;
-        display: block;
-    }
+    font-family: 'Dewnrger', 'Frutiger W01', sans-serif;
+    color: #fff;
 }
 
 
