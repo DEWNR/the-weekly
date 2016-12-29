@@ -1,0 +1,69 @@
+.site-header {
+    margin: 0 auto;
+    max-width: 1004px;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+        padding: 20px;
+    }
+}
+
+    .site-header__container {
+        text-align: justify;
+        font-size: 0;
+        line-height: 1;
+
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 100%;
+        }
+    }
+
+    .site-header__item--logo {
+        width: percentage(375/1004);
+        min-width: 300px;
+
+        img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .site-header__item {
+        display: inline-block;
+        vertical-align: middle;
+
+        img {
+            display: block;
+        }
+    }
+
+    .site-header__item--partner-logos {
+        width: percentage(399/1004);
+        text-align: right;
+    }
+
+    .site-header__item--partner-logo {
+        // padding-left: percentage(29/368);
+        box-sizing: border-box;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        img {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .site-header__item--sa-logo {
+        width: percentage(124/399);
+    }
+
+    .site-header__item--dewnr-logo {
+        width: percentage(245/399);
+        padding-left: percentage(30/399);
+    }

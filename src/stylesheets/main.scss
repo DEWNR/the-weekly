@@ -1,6 +1,3 @@
-@import 'featured-post';
-@import 'teaser';
-
 html,
 body {
     margin: 0;
@@ -17,62 +14,7 @@ a {
     text-decoration: none;
 }
 
-.site-header {
-    margin: 0 auto;
-    max-width: 1004px;
-    padding: 10px;
-
-    @media (min-width: 768px) {
-        padding: 20px;
-    }
-}
-
-    .site-header__container {
-        text-align: justify;
-        font-size: 0;
-        line-height: 1;
-
-        &::after {
-            content: '';
-            display: inline-block;
-            width: 100%;
-        }
-    }
-
-    .site-header__item--logo {
-
-        img {
-            display: block;
-            max-width: 100%;
-            width: 100%;
-        }
-    }
-
-    .site-header__item {
-        display: inline-block;
-        vertical-align: middle;
-
-        img {
-            display: block;
-        }
-    }
-
-    .site-header__item--partner-logo {
-        padding: 0 10px;
-    }
-
-
-.site-hero {
-    background: darkblue;
-}
-
-
-.site-hero__content {
-    margin: 0 auto;
-    max-width: 1024px;
-    padding: 5px;
-
-    @media (min-width: 768px) {
-        padding: 10px;
-    }
-}
+@import 'featured-post';
+@import 'teaser';
+@import 'site-header';
+@import 'site-hero';
