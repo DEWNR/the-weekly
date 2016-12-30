@@ -175,7 +175,7 @@ linters:
 
   SpaceAroundOperator:
     enabled: true
-    style: one_space # or 'no_space'
+    style: no_space # or 'one_space'
 
   SpaceBeforeBrace:
     enabled: true
