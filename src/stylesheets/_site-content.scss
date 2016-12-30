@@ -1,0 +1,27 @@
+.site-content {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.site-content--twocol {
+    padding: 5px;
+
+    @media (min-width: 768px) {
+        padding: 10px;
+        generate-grid: columns(auto 340px) gutter(0);
+    }
+}
+
+
+.site-content__complementary-title {
+    color: #494847;
+    font-family: 'Dewnrger', 'Frutiger W01', sans-serif;
+    font-size: responsive 20px 32px;
+    font-range: 768px 1280px;
+    margin: 0;
+    padding: 0 5px;
+
+    @media (min-width: 768px) {
+        padding: 0 10px;
+    }
+}

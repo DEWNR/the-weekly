@@ -7,6 +7,7 @@ body {
     color: #494847;
     font-size: responsive 14px 16px;
     font-range: 768px 1280px;
+    line-height: 1.5;
 }
 
 a {
@@ -14,8 +15,10 @@ a {
     text-decoration: none;
 }
 
+@import 'article';
 @import 'featured-post';
 @import 'teaser';
+@import 'site-content';
 @import 'site-footer';
 @import 'site-header';
 @import 'site-hero';
