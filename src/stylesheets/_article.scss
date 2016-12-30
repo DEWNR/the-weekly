@@ -1,8 +1,8 @@
 .article {
-    padding: 5px;
+    padding: 0 10px;
 
     @media (min-width: 768px) {
-        padding: 10px;
+        padding: 0 20px;
     }
 }
 
@@ -37,6 +37,20 @@
 
 }
 
+.article__content {
+
+    a {
+        font-weight: bold;
+        border-bottom: 1px dashed #ccc;
+
+        &:focus,
+        &:hover {
+            color: #10355b;
+            border-bottom: 1px solid #10355b;
+        }
+    }
+
+}
 
 .article__footer {
     font-size: 12px;

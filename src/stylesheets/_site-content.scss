@@ -1,17 +1,33 @@
 .site-content {
+    background: #e6e6e6;
+}
+
+.site-content__inner {
     margin: 0 auto;
     max-width: 1024px;
 }
 
-.site-content--twocol {
-    padding: 5px;
 
-    @media (min-width: 768px) {
-        padding: 10px;
-        generate-grid: columns(auto 340px) gutter(0);
+.site-content--twocol {
+
+    .site-content__inner {
+
+        padding: 10px 5px;
+
+        @media (min-width: 768px) {
+            padding: 20px 10px;
+            generate-grid: columns(auto 340px) gutter(10px);
+        }
     }
+
 }
 
+.site-content__main {
+
+    .site-content--twocol & {
+        background: #fff;
+    }
+}
 
 .site-content__complementary-title {
     color: #494847;
