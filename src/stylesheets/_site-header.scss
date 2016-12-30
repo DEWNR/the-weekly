@@ -21,8 +21,7 @@
     }
 
     .site-header__item--logo {
-        width: percentage(375/1004);
-        // min-width: 300px;
+        width: percentage(280/1004);
 
         img {
             display: block;
@@ -46,7 +45,6 @@
     }
 
     .site-header__item--partner-logo {
-        // padding-left: percentage(29/368);
         box-sizing: border-box;
 
         &:first-child {

@@ -23,7 +23,6 @@
 
     .site-footer__item--logo {
         width: percentage(190/1004);
-        // min-width: 300px;
 
         img {
             display: block;
@@ -47,7 +46,6 @@
     }
 
     .site-footer__item--partner-logo {
-        // padding-left: percentage(29/368);
         box-sizing: border-box;
 
         &:first-child {
