@@ -12,8 +12,6 @@
 
     .site-content__inner {
 
-        padding: 10px 5px;
-
         @media (min-width: 768px) {
             padding: 20px 10px;
             generate-grid: columns(auto 340px) gutter(10px);
@@ -27,6 +25,7 @@
     .site-content--twocol & {
         background: #fff;
     }
+
 }
 
 .site-content__complementary-title {
