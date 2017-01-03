@@ -1,8 +1,8 @@
 .article {
-    padding: 0 $spacing-unit-base/2;
+    padding: $spacing-unit-base/2;
 
     @media (min-width: 768px) {
-        padding: 0 $spacing-unit-base;
+        padding: $spacing-unit-base;
     }
 }
 
@@ -15,7 +15,7 @@
     @include font-size(20px 40px);
     color: $color-text-base;
     font-family: $font-family-highlight;
-    margin: 0;
+    margin-bottom: $spacing-unit-base;
     line-height: 1.2;
 }
 
@@ -38,7 +38,7 @@
     figcaption {
         background: $color-grey-3;
         font-size: 12px;
-        padding: 0.8rem;
+        padding: 15px;
     }
 
 }
@@ -60,4 +60,8 @@
 
 .article__footer {
     font-size: 12px;
+
+    p {
+        margin: 0;
+    }
 }
