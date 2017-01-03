@@ -1,6 +1,6 @@
 .site-navigation {
     background: #d9d3ca;
-    color: #10355b;
+    color: $color-primary;
 
     > ul {
         clear: both;
@@ -20,9 +20,9 @@
     display: inline;
 
     > a {
-        padding: 20px;
+        padding: $spacing-unit-base;
         display: inline-block;
-        color: #10355b;
+        color: $color-primary;
         outline: 0;
 
         &:focus,

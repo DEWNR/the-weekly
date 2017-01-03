@@ -1,9 +1,9 @@
 .site-footer {
-    padding: 10px;
+    padding: $spacing-unit-base/2;
     background: #414141;
 
     @media (min-width: 768px) {
-        padding: 20px;
+        padding: $spacing-unit-base;
     }
 }
 

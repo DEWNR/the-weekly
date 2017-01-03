@@ -1,14 +1,10 @@
 .site-hero {
-    background: #10355b;
+    background: $color-primary;
 }
 
 
 .site-hero__content {
     margin: 0 auto;
-    max-width: 1024px;
-    padding: 5px;
-
-    @media (min-width: 768px) {
-        padding: 10px;
-    }
+    max-width: $max-width;
+    padding: 0;
 }

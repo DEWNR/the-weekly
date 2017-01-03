@@ -21,6 +21,12 @@ $color-text-reverse: #fff;
 $color-background-base: #fff;
 
 
+$color-grey-1: #95989a;
+$color-grey-2: #e8e8e8;
+$color-grey-3: #d9d9d9;
+
+
+
 
 
 
@@ -41,7 +47,7 @@ $font-family-highlight: 'Dewnrger', 'Frutiger W01', sans-serif;
 
 
 $font-size-base: 16px;
-$line-height-base: 24px;
+$line-height-base: 20px;
 
 
 
@@ -52,7 +58,7 @@ $line-height-base: 24px;
 $spacing-unit-base: $line-height-base;
 
 
-$max-width: 1080px;
+$max-width: 1024px;
 
 
 
@@ -63,7 +69,7 @@ $max-width: 1080px;
 $transition-time: 0.3s;
 
 
-
+@ant-gutters 20px;
 
 
 /* = Media queries = */
