@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #PAGE
+\*------------------------------------*/
+
+
+html {
+    @include font-size();
+    font-family: $font-family-base;
+    font-weight: 300;
+    color: $color-text-base;
+    line-height: 1.5;
+    overflow-y: scroll;
+    min-height: 100%;
+}
+
+a {
+    color: $color-text-base;
+    text-decoration: none;
+}

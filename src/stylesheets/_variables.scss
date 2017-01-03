@@ -1,0 +1,88 @@
+/*------------------------------------*\
+    #GENERAL SETTINGS
+\*------------------------------------*/
+
+
+/* == Tint and shade percentage == */
+
+$tint-base: 75%;
+$shade-base: $tint-base;
+
+
+
+
+
+/* == High-level colours == */
+
+$color-primary: #0e3050;
+$color-secondary: null;
+$color-text-base: #494847;
+$color-text-reverse: #fff;
+$color-background-base: #fff;
+
+
+
+
+
+/* == Utility colours == */
+
+$color-success: shade(#008000, $tint-base);
+$color-warning: shade(#ffa500, $tint-base);
+$color-danger: shade(#f00, $tint-base);
+
+
+
+
+
+/* = Fonts =*/
+
+$font-family-base: 'Frutiger W01', sans-serif;
+$font-family-highlight: 'Dewnrger', 'Frutiger W01', sans-serif;
+
+
+$font-size-base: 16px;
+$line-height-base: 24px;
+
+
+
+
+
+/* = Layout = */
+
+$spacing-unit-base: $line-height-base;
+
+
+$max-width: 1080px;
+
+
+
+
+
+/* = Animation = */
+
+$transition-time: 0.3s;
+
+
+
+
+
+/* = Media queries = */
+
+/**
+ * This notation has been chosen as it is compatible with Inuit CSS
+ * `media-query()` mixin found in `_tools.responsive`.
+ **/
+
+$breakpoints: (
+    'small-and-up': 'screen and (min-width: 480px)',
+    'medium-and-up': 'screen and (min-width: 640px)',
+    'large-and-up': 'screen and (min-width: 720px)',
+    'huge': 'screen and (min-width: 1024px)'
+);
+
+$media-queries: map-merge(
+    $breakpoints,
+    (
+        'retina': '(-webkit-min-device-pixel-ratio: 1.5), (-moz-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), min-resolution: 1.5dppx)'
+    )
+);

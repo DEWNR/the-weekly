@@ -11,20 +11,21 @@
 }
 
 .article__title {
-    color: #494847;
-    font-family: 'Dewnrger', 'Frutiger W01', sans-serif;
-    font-size: responsive 20px 40px;
-    font-range: 768px 1280px;
+    @include font-size(20px 40px);
+    color: $color-text-base;
+    font-family: $font-family-highlight;
     margin: 0;
     line-height: 1.2;
 }
 
 .article__image {
-    margin: 0 -10px;
+    margin-right: -10px;
+    margin-left: -10px;
     padding: 0;
 
     @media (min-width: 768px) {
-        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     img {
@@ -49,8 +50,8 @@
 
         &:focus,
         &:hover {
-            color: #10355b;
-            border-bottom: 1px solid #10355b;
+            color: $color-primary;
+            border-bottom: 1px solid $color-primary;
         }
     }
 

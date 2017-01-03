@@ -1,20 +1,20 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Frutiger W01', sans-serif;
-    font-weight: 400;
-    color: #494847;
-    font-size: responsive 14px 16px;
-    font-range: 768px 1280px;
-    line-height: 1.5;
-}
+/* == Settings == */
+@import 'variables';
 
-a {
-    color: #494847;
-    text-decoration: none;
-}
 
+/* == Tools == */
+@import 'tools/font-size';
+
+
+/* == Generic == */
+@import 'generic/dewnrgr';
+@import 'generic/box-sizing';
+@import 'generic/normalize';
+@import 'generic/reset';
+@import 'generic/shared';
+
+
+@import 'page';
 @import 'article';
 @import 'block-link';
 @import 'featured-post';

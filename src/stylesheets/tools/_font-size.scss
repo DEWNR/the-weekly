@@ -1,0 +1,11 @@
+/*------------------------------------*\
+    #FONT-SIZE
+\*------------------------------------*/
+
+
+@mixin font-size($min-size: 14px, $max-size: 16px, $min-range: 768px, $max-range: 1280px) {
+
+    font-size: responsive $min-size $max-size;
+    font-range: $min-range $max-range;
+
+}

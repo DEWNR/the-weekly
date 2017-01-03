@@ -6,7 +6,7 @@
  * DEWNR's own customised version of Frutiger
  */
 
-$sagovau-path-fonts: '/fonts/' !default;
+$path-fonts: '/fonts/' !default;
 
 
 
@@ -14,7 +14,7 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 200;
-    src: url(#{$sagovau-path-fonts}Dewnrger45Light.ttf);
+    src: url(#{$path-fonts}Dewnrger45Light.ttf);
 }
 
 
@@ -22,7 +22,7 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 200;
-    src: url(#{$sagovau-path-fonts}Dewnrger46LightItalic.ttf);
+    src: url(#{$path-fonts}Dewnrger46LightItalic.ttf);
 }
 
 
@@ -30,7 +30,7 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 400;
-    src: url(#{$sagovau-path-fonts}Dewnrger55Roman.ttf);
+    src: url(#{$path-fonts}Dewnrger55Roman.ttf);
 }
 
 
@@ -38,7 +38,7 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 400;
-    src: url(#{$sagovau-path-fonts}Dewnrger56Italic.ttf);
+    src: url(#{$path-fonts}Dewnrger56Italic.ttf);
 }
 
 
@@ -46,7 +46,7 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 700;
-    src: url(#{$sagovau-path-fonts}Dewnrger65Bold.ttf);
+    src: url(#{$path-fonts}Dewnrger65Bold.ttf);
 }
 
 
@@ -54,5 +54,5 @@ $sagovau-path-fonts: '/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 700;
-    src: url(#{$sagovau-path-fonts}Dewnrger66BoldItalic.ttf);
+    src: url(#{$path-fonts}Dewnrger66BoldItalic.ttf);
 }

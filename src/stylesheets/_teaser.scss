@@ -14,16 +14,11 @@
 }
 
 .teaser {
-    margin-bottom: 10px;
     position: relative;
     line-height: 1.2;
 
     a {
         outline: 0;
-    }
-
-    @media (min-width: 768px) {
-        margin-bottom: 20px;
     }
 }
 
