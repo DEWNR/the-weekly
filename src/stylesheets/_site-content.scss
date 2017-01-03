@@ -1,4 +1,5 @@
 .site-content {
+    position: relative;
     background: $color-grey-2;
 
     @media (min-width: 768px) {
@@ -11,8 +12,10 @@
 }
 
 .site-content__inner {
+    position: relative;
     margin: 0 auto;
     max-width: 1024px;
+    z-index: 10;
 }
 
 
