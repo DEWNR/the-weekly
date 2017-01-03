@@ -1,9 +1,5 @@
 .site-content {
     background: $color-grey-2;
-
-    @media (min-width: 768px) {
-        padding: $spacing-unit-base 0;
-    }
 }
 
 .site-content__inner {
@@ -17,8 +13,8 @@
     .site-content__inner {
 
         @media (min-width: 768px) {
-            padding: 20px 10px;
-            generate-grid: columns(auto 340px);
+            padding: $spacing-unit-base $spacing-unit-base/2;
+            generate-grid: columns(auto 340px) gutter(25px);
         }
     }
 
