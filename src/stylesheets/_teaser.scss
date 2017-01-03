@@ -51,7 +51,7 @@
 
 
 .teaser__title {
-    @include font-size();
+    @include font-size(13px 15px);
     align-self: center;
     color: $color-text-reverse;
     font-family: $font-family-highlight;

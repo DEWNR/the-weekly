@@ -39,6 +39,24 @@
     &:hover {
         background: darken($color-grey-4, 10%);
     }
+
+    .block-link--has-vacancies & {
+        background: $color-biscay;
+
+        &:focus,
+        &:hover {
+            background: darken($color-biscay, 10%);
+        }
+    }
+
+    .block-link--has-publications & {
+        background: $color-cadillac;
+
+        &:focus,
+        &:hover {
+            background: darken($color-cadillac, 10%);
+        }
+    }
 }
 
 .block-link__more {
@@ -47,18 +65,26 @@
     font-style: normal;
 }
 
+.block-link__title {
+    @include font-size(13px 15px);
+    font-family: $font-family-highlight;
+    font-weight: bold;
+}
+
 .block-link__subtitle {
+    font-family: $font-family-highlight;
     display: block;
     position: relative;
-    top: -5px;
-    font-size: 14px;
+    top: -2px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .block-link__tag {
     @include font-size(13px 15px);
     font-family: $font-family-highlight;
     display: inline-block;
-    background: $color-flush-mahogany;
+    background: rgba($color-flush-mahogany, 0.9);
     padding: 0.35em 0.5em 0.2em;
     font-weight: bold;
     text-align: center;
@@ -66,64 +92,64 @@
 
     .block-link__url:focus &,
     .block-link__url:hover & {
-        background: darken($color-flush-mahogany, 10%);
+        background: rgba(darken($color-flush-mahogany, 10%), 0.9);
     }
 
     .block-link__url--news & {
-        background: $color-jelly-bean;
+        background: rgba($color-jelly-bean, 0.9);
     }
 
     .block-link__url--news:focus &,
     .block-link__url--news:hover & {
-        background: darken($color-jelly-bean, 10%);
+        background: rgba(darken($color-jelly-bean, 10%), 0.9);
     }
 
 
     .block-link__url--social & {
-        background: $color-buttercup;
+        background: rgba($color-buttercup, 0.9);
     }
 
     .block-link__url--social:focus &,
     .block-link__url--social:hover & {
-        background: darken($color-buttercup, 10%);
+        background: rgba(darken($color-buttercup, 10%), 0.9);
     }
 
 
     .block-link__url--community & {
-        background: $color-hippie-blue;
+        background: rgba($color-hippie-blue, 0.9);
     }
 
     .block-link__url--community:focus &,
     .block-link__url--community:hover & {
-        background: darken($color-hippie-blue, 10%);
+        background: rgba(darken($color-hippie-blue, 10%), 0.9);
     }
 
 
     .block-link__url--profile & {
-        background: $color-lochmara;
+        background: rgba($color-lochmara, 0.9);
     }
 
     .block-link__url--profile:focus &,
     .block-link__url--profile:hover & {
-        background: darken($color-lochmara, 10%);
+        background: rgba(darken($color-lochmara, 10%), 0.9);
     }
 
 
     .block-link__url--events & {
-        background: $color-jelly-bean;
+        background: rgba($color-jelly-bean, 0.9);
     }
 
     .block-link__url--events:focus &,
     .block-link__url--events:hover & {
-        background: darken($color-jelly-bean, 10%);
+        background: rgba(darken($color-jelly-bean, 10%), 0.9);
     }
 
     .block-link__url--people & {
-        background: $color-chelsea-cucumber;
+        background: rgba($color-chelsea-cucumber, 0.9);
     }
 
     .block-link__url--people:focus &,
     .block-link__url--people:hover & {
-        background: darken($color-chelsea-cucumber, 10%);
+        background: rgba(darken($color-chelsea-cucumber, 10%), 0.9);
     }
 }
