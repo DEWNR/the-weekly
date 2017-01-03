@@ -29,15 +29,16 @@
 
 
 .teaser__description {
-    background: #5e5c5c;
+    background: #fff;
     height: 100%;
     display: flex;
-    transition: background-color 0.5s ease;
+    transition: background-color $transition-time ease, color $transition-time ease;
     padding: $spacing-unit-base;
 
     .teaser__content:focus &,
     .teaser__content:hover & {
-        background: darken(#5e5c5c, 20%);
+        background: $color-primary;
+        color: $color-text-reverse;
     }
 }
 
@@ -53,7 +54,6 @@
 .teaser__title {
     @include font-size(13px 15px);
     align-self: center;
-    color: $color-text-reverse;
     font-family: $font-family-highlight;
     margin: 0;
 }

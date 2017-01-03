@@ -1,6 +1,7 @@
 .site-content {
     position: relative;
     background: $color-grey-2;
+    overflow: hidden;
 
     @media (min-width: 768px) {
         padding: $spacing-unit-base 0;
