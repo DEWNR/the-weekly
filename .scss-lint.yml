@@ -174,7 +174,7 @@ linters:
     enabled: true
 
   SpaceAroundOperator:
-    enabled: true
+    enabled: false
     style: no_space # or 'one_space'
 
   SpaceBeforeBrace:

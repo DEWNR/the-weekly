@@ -1,10 +1,10 @@
 .site-header {
     margin: 0 auto;
-    max-width: 1004px;
-    padding: $spacing-unit-base/2;
+    max-width: $max-width;
+    padding: $spacing-unit-base/2 0;
 
     @media (min-width: 768px) {
-        padding: $spacing-unit-base;
+        padding: $spacing-unit-base 0;
     }
 }
 
