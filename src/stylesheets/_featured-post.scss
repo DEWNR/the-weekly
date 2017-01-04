@@ -46,6 +46,10 @@
         .featured-post__content:focus &,
         .featured-post__content:hover & {
             background: $color-primary;
+
+            @media (min-width: 768px) {
+                background: none;
+            }
         }
 
         @media (min-width: 768px) {
