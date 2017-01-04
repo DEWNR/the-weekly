@@ -16,7 +16,8 @@
     </head>
     <body>
 
-        <div class="site-wrap">
+        <div id="o-wrapper" class="site-wrap">
+            <button id="c-button--slide-left" class="c-button">Slide Left</button>
 
             <header class="site-header">
 
@@ -373,7 +374,28 @@
 
         </div>
 
+        <nav id="mobile-menu--slide-left" class="mobile-menu  mobile-menu--slide-left">
+
+            <button class="mobile-menu__close">&larr; Close Menu</button>
+
+            <ul class="mobile-menu__items">
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Home</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Past editions</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Search</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Categories</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Subscribe</a></li>
+                <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact</a></li>
+            </ul>
+
+        </nav><!-- /mobile-menu slide-left -->
+
+
+        <div id="c-mask" class="c-mask"></div>
+
+
         <script src="/js/lazy-load-images.js"></script>
+        <script src="/js/mobile-menu.js"></script>
+        <script src="/js/main.js"></script>
 
     </body>
 </html>
