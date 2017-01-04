@@ -1,7 +1,7 @@
 .site-header {
     margin: 0 auto;
     max-width: $max-width;
-    padding: $spacing-unit-base/2 0;
+    padding: $spacing-unit-base/2 $spacing-unit-base;
 
     @media (min-width: 768px) {
         padding: $spacing-unit-base 0;
@@ -21,7 +21,11 @@
     }
 
     .site-header__item--logo {
-        width: percentage(280/1004);
+        width: percentage(440/1004);
+
+        @media (min-width: 768px) {
+            width: percentage(280/1004);
+        }
 
         img {
             display: block;
@@ -42,6 +46,11 @@
     .site-header__item--partner-logos {
         width: percentage(399/1004);
         text-align: right;
+        display: none;
+
+        @media (min-width: 768px) {
+            display: inline-block;
+        }
     }
 
     .site-header__item--partner-logo {
@@ -65,3 +74,14 @@
         width: percentage(245/399);
         padding-left: percentage(30/399);
     }
+
+.site-header__item--menu {
+    background: none;
+    border: 0;
+    outline: 0;
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+
+}

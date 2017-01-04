@@ -40,8 +40,16 @@
     .featured-post__description-words {
         align-self: center;
         padding: $spacing-unit-base;
+        background: #fff;
+        transition: background-color $transition-time ease;
+
+        .featured-post__content:focus &,
+        .featured-post__content:hover & {
+            background: $color-primary;
+        }
 
         @media (min-width: 768px) {
+            background: none;
             padding: $spacing-unit-base $spacing-unit-base $spacing-unit-base 0;
         }
 
