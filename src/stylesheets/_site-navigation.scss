@@ -21,9 +21,10 @@
     overflow: visible;
     padding: 0;
     transform-style: preserve-3d;
-    max-width: $max-width;
+    max-width: $max-width + $spacing-unit-base*2;
     z-index: 99999;
     clear: fix;
+    padding: 0 $spacing-unit-base;
 }
 
 
