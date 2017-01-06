@@ -3,12 +3,11 @@
     <button class="mobile-menu__close">&larr; Close Menu</button>
 
     <ul class="mobile-menu__items">
-        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Home</a></li>
-        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Past editions</a></li>
-        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Search</a></li>
-        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Categories</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">About</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Editions</a></li>
         <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Subscribe</a></li>
         <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Contact</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Search</a></li>
     </ul>
 
 </nav>
