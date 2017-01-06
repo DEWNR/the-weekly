@@ -8,14 +8,16 @@ var mqpacker = require('css-mqpacker');
 var postcss = require('gulp-postcss');
 var rucksack = require('gulp-rucksack');
 var sass = require('gulp-sass');
-var sourcemaps   = require('gulp-sourcemaps');
+var sourcemaps = require('gulp-sourcemaps');
+var nunjucksRender = require('gulp-nunjucks-render');
 var gutil = require('gulp-util');
 var critical = require('critical').stream;
 
 var src = {
     scss: 'src/stylesheets/**/*.scss',
-    images: 'src/images/**/*.png',
-    html: 'src/html/**/*.html',
+    images: 'src/images/**/*.+(png|jpg|svg|gif)',
+    templates: 'src/templates/**/*.+(html|nunjucks)',
+    pages: 'src/pages/**/*.+(html|nunjucks)',
     scripts: 'src/scripts/**/*.js',
     fonts: 'src/fonts/**/*.*'
 };
@@ -28,17 +30,21 @@ gulp.task('serve', ['styles'], function() {
     });
 
     gulp.watch(src.scss, ['styles']);
-    gulp.watch(src.html, ['templates']);
+    gulp.watch(src.templates, ['nunjucks']);
+    gulp.watch(src.pages, ['nunjucks']);
     gulp.watch(src.images, ['images']);
     gulp.watch(src.fonts, ['fonts']);
 });
 
 
 // Templates
-gulp.task('templates', function() {
-    return gulp.src(src.html)
-        .pipe(gulp.dest('./dist'))
-        .pipe(browserSync.stream());
+gulp.task('nunjucks', function() {
+    return gulp.src(src.pages)
+    .pipe(nunjucksRender({
+        path: ['src/templates']
+    }))
+    .pipe(gulp.dest('./dist'))
+    .pipe(browserSync.stream());
 });
 
 
@@ -96,4 +102,4 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve', 'templates', 'images', 'fonts']);
+    gulp.task('default', ['serve', 'nunjucks', 'images', 'scripts', 'fonts']);

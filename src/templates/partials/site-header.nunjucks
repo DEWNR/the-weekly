@@ -1,0 +1,32 @@
+<header class="site-header">
+
+    <div class="site-header__container">
+
+        <a class="site-header__item  site-header__item--logo" href="/"><img src="/images/weekly-logotype.png" alt="The Weekly"></a>
+
+        <div class="site-header__item  site-header__item--partner-logos">
+
+            <a class="site-header__item  site-header__item--partner-logo  site-header__item--sa-logo" href="http://www.southaustralia.com"><img src="/images/south-australia-logotype.svg" alt="South Australia"></a>
+
+            <a class="site-header__item  site-header__item--partner-logo  site-header__item--dewnr-logo" href="http://www.environment.sa.gov.au"><img alt="Department of Environment, Water and Natural Resources" class="u-hidden u-display-inline-block-retina" src="/images/dewnr-logotype.svg"></a>
+
+        </div>
+
+
+        <button id="c-button--slide-left" class="site-header__item  site-header__item--menu  c-button" data-js="primary-navigation-toggle" title="Navigation menu">
+
+            <svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+                <line stroke-linecap="round" x1="2.5" y1="12" x2="45.5" y2="12" stroke="#002855" stroke-width="3"></line>
+
+                <line stroke-linecap="round" x1="2.5" y1="24" x2="45.5" y2="24" stroke="#002855" stroke-width="3"></line>
+
+                <line stroke-linecap="round" x1="2.5" y1="36" x2="45.5" y2="36" stroke="#002855" stroke-width="3"></line>
+
+            </svg>
+
+        </button>
+
+    </div>
+
+</header>

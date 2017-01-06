@@ -1,0 +1,12 @@
+<nav class="site-navigation" role="navigation">
+
+    <ul class="site-navigation__list">
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Home</span></a></li>
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Past editions</span></a></li>
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Search</span></a></li>
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Categories</span></a></li>
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Subscribe</span></a></li>
+        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Contact</span></a></li>
+    </ul>
+
+</nav>

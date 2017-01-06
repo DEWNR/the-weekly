@@ -1,0 +1,49 @@
+<article class="article" itemscope itemtype="https://schema.org/Article">
+
+    <meta itemprop="mainEntityOfPage" content="#">
+
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="The Weekly">
+        <link itemprop="sameAs" href="http://www.environment.sa.gov.au">
+    </div>
+
+    <header class="article__header">
+
+        <p class="article__meta"><time class="article__pubdate" itemprop="datePublished" datetime="2016-11-9">9 November 2016</time> | Comments (5)</p>
+
+        <h1 class="article__title" itemprop="headline">Adelaide carbon neutral plan launched</h1>
+
+    </header>
+
+    <div class="article__introduction" itemprop="about"><p>The next step to make Adelaide the world’s first carbon neutral city was taken yesterday, with the launch of the Carbon Neutral Adelaide Action Plan 2016-2021.</p></div>
+
+    <figure class="article__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+
+        <meta itemprop="width" content="650">
+        <meta itemprop="height" content="372">
+
+        <img itemprop="url" src="/images/story_images1.jpg" alt="">
+
+        <figcaption itemprop="caption description">Image caption would go here</figcaption>
+    </figure>
+
+    <div class="article__content" itemprop="articleBody">
+        <p>Launched by Premier Jay Weatherill and Adelaide City Council Lord Mayor Martin Haese, the plan outlines an approach that seeks to reduce emissions by concentrating on buildings, transport, renewable energy, <a href="#">and water and waste</a>. It emphasises that this is not a task for state and local government alone – it is Premier Jay Weatherill  launches the carbon neutral plan one for the entire Adelaide community.</p>
+
+        <p>At the launch event University of Adelaide Vice-Chancellor Warren Bebbington announced that the university will be the first organisation signing up to the Carbon Neutral Adelaide Partnerships Program.</p>
+
+        <p>The goal of achieving net zero emissions for the City of Adelaide was originally announced in 2015. The State Governtment and Adelaide City Council have been working together and with the community over the last 12 months to create the action plan for the city. Over 4,000 people shared ideas and expertise to inform the plan.</p>
+
+        <p>The plan is now available <a href="#">online</a>.</p>
+
+        <p>You can keep up to date with everything carbon neutral at the <a href="#">Low Carbon Future SA</a> Facebook page.</p>
+    </div>
+
+
+    <footer class="article__footer">
+
+        <p>This article was updated on <time itemprop="dateModified" datetime="2015-03-01">March 30, 2015</time></p>
+
+    </footer>
+
+</article>

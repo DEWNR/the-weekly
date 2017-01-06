@@ -1,0 +1,24 @@
+<!-- index.nunjucks -->
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="site-content">
+
+        {% include "partials/site-hero.nunjucks" %}
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                {% include "partials/teasers.nunjucks" %}
+
+                {% include "partials/blocks.nunjucks" %}
+
+            </main>
+
+        </div>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title></title>
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <script src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js" async></script>
+    </head>
+
+    <body>
+
+        <div id="o-wrapper" class="site-wrap">
+
+            {% include "partials/site-header.nunjucks" %}
+
+            {% include "partials/site-navigation.nunjucks" %}
+
+            {% block content %} {% endblock %}
+
+            {% include "partials/site-footer.nunjucks" %}
+
+        </div>
+
+        {% include "partials/mobile-menu.nunjucks" %}
+
+
+        <script src="/js/lazy-load-images.js"></script>
+        <script src="/js/mobile-menu.js"></script>
+        <script src="/js/main.js"></script>
+
+    </body>
+</html>
