@@ -21,7 +21,7 @@
     }
 
     .site-header__item--logo {
-        width: percentage(440/1004);
+        width: percentage(240/1004);
 
         @media (min-width: 768px) {
             width: percentage(280/1004);
@@ -79,6 +79,21 @@
     background: none;
     border: 0;
     outline: 0;
+
+    span {
+        font-size: 14px;
+        color: $color-primary;
+        text-transform: uppercase;
+        // height: 48px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    svg {
+        width: 30px;
+        vertical-align: middle;
+    }
 
     @media (min-width: 768px) {
         display: none;

@@ -9,7 +9,11 @@
 
     .site-content__complementary & {
         padding: $spacing-unit-base 0 0;
-        generate-grid: columns(1/2 1/2);
+        generate-grid: columns(1/2 1/2) gutter(10px);
+
+        @media (min-width: 768px) {
+            generate-grid: columns(1/2 1/2);
+        }
     }
 }
 
@@ -171,12 +175,12 @@
 
 
     .block-link__url--events & {
-        background: rgba($color-jelly-bean, 0.9);
+        background: rgba($color-daisy-bush, 0.9);
     }
 
     .block-link__url--events:focus &,
     .block-link__url--events:hover & {
-        //background: rgba(darken($color-jelly-bean, 10%), 0.9);
+        //background: rgba(darken($color-daisy-bush, 10%), 0.9);
     }
 
     .block-link__url--people & {

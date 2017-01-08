@@ -1,5 +1,5 @@
-<!-- index.nunjucks -->
 {% extends 'layout.nunjucks' %}
+{% set isHome = true %}
 
 {% block content %}
     <div class="site-content">

@@ -14,7 +14,11 @@
         <script src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js" async></script>
     </head>
 
-    <body>
+    {% if isHome %}
+        <body class="is-home">
+    {% else %}
+        <body>
+    {% endif %}
 
         <div id="o-wrapper" class="site-wrap">
 
