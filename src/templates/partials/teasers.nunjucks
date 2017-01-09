@@ -15,6 +15,8 @@
                 <h2 itemprop="name" class="teaser__title">Major achievements for Green Army graduates</h2>
             </div>
 
+            <a href="#" class="tag  tag--news">News</a>
+
         </a>
 
     </article>
@@ -30,6 +32,8 @@
             <div class="teaser__description">
                 <h2 itemprop="name" class="teaser__title">Keeping a pygmy blue whale comfortable</h2>
             </div>
+
+            <a href="#" class="tag  tag--news">News</a>
 
         </a>
 
@@ -47,6 +51,8 @@
                 <h2 itemprop="name" class="teaser__title">Natural Resources SE teaming up with SAHMRI to get resilient</h2>
             </div>
 
+            <a href="#" class="tag  tag--news">News</a>
+
         </a>
 
     </article>
@@ -62,6 +68,8 @@
             <div class="teaser__description">
                 <h2 itemprop="name" class="teaser__title">The return of Bazza the Bunyip</h2>
             </div>
+
+            <a href="#" class="tag  tag--news">News</a>
 
         </a>
 
@@ -79,6 +87,8 @@
                 <h2 itemprop="name" class="teaser__title">Here’s the latest from the Good Living blog</h2>
             </div>
 
+            <a href="#" class="tag  tag--news">News</a>
+
         </a>
 
     </article>
@@ -94,6 +104,8 @@
             <div class="teaser__description">
                 <h2 itemprop="name" class="teaser__title">Preventing computer vision syndrome</h2>
             </div>
+
+            <a href="#" class="tag  tag--people">People matter</a>
 
         </a>
 
@@ -111,6 +123,8 @@
                 <h2 itemprop="name" class="teaser__title">Editable Adelaide</h2>
             </div>
 
+            <a href="#" class="tag  tag--events">Events</a>
+
         </a>
 
     </article>
@@ -126,6 +140,8 @@
             <div class="teaser__description">
                 <h2 itemprop="name" class="teaser__title">Book swap for Waymouth readers</h2>
             </div>
+
+            <a href="#" class="tag  tag--social">Social</a>
 
         </a>
 

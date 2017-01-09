@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    #Tag
+\*------------------------------------*/
+
+
+.tag {
+    position: absolute;
+    display: inline-block;
+    color: $color-text-reverse;
+    background: $color-flush-mahogany;
+    font-weight: 100;
+    padding: 4px $spacing-unit-base/2 3px;
+    font-size: 10px;
+    top: $spacing-unit-base/1.5;
+    right: 0;
+
+    &--need-to-know { background-color: rgba($color-flush-mahogany, 0.9); }
+    &--news { background-color: rgba($color-jelly-bean, 0.9); }
+    &--social { background-color: rgba($color-buttercup, 0.9); }
+    &--community { background-color: rgba($color-hippie-blue, 0.9); }
+    &--profile { background-color: rgba($color-lochmara, 0.9); }
+    &--events { background-color: rgba($color-daisy-bush, 0.9); }
+    &--people { background-color: rgba($color-chelsea-cucumber, 0.9); }
+
+    .article__header & {
+        position: relative;
+        top: -2px;
+        right: inherit;
+        margin-right: $spacing-unit-base/2;
+        margin-left: -$spacing-unit-base;
+        padding: 4px $spacing-unit-base 3px;
+    }
+}
