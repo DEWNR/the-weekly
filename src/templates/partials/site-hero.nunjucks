@@ -7,7 +7,7 @@
             <a class="featured-post__content" href="#">
 
                 <div class="featured-post__image">
-                    <img src="images/story_images1.jpg" width="650" height="372">
+                    <img class="lazyload" data-sizes="auto" data-src="images/story_images1.jpg" data-srcset="images/160/story_images1.jpg 160w, images/320/story_images1.jpg 320w, images/480/story_images1.jpg 480w, images/story_images1.jpg 650w" width="650" height="372" src="images/160/story_images1.jpg">
                 </div>
 
                 <div class="featured-post__description">

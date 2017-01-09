@@ -35,7 +35,7 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
-        <script src="js/lazy-load-images.js"></script>
+        <script src="js/lazysizes.js"></script>
         <script src="js/mobile-menu.js"></script>
         <script src="js/main.js"></script>
 

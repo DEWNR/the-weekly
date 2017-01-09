@@ -3,7 +3,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images2.jpg" width="650" height="372" src="images/thumbs/story_images2.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images2.jpg" data-srcset="images/160/story_images2.jpg 160w, images/320/story_images2.jpg 320w, images/480/story_images2.jpg 480w, images/story_images2.jpg 650w" width="650" height="372" src="images/160/story_images2.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -21,7 +21,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images3.jpg" width="650" height="372" src="images/thumbs/story_images3.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images3.jpg" data-srcset="images/160/story_images3.jpg 160w, images/320/story_images3.jpg 320w, images/480/story_images3.jpg 480w, images/story_images3.jpg 650w" width="650" height="372" src="images/160/story_images3.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -39,7 +39,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images4.jpg" width="650" height="372" src="images/thumbs/story_images4.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images4.jpg" data-srcset="images/160/story_images4.jpg 160w, images/320/story_images4.jpg 320w, images/480/story_images4.jpg 480w, images/story_images4.jpg 650w" width="650" height="372" src="images/160/story_images4.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -57,7 +57,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images5.jpg" width="650" height="372" src="images/thumbs/story_images5.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images5.jpg" data-srcset="images/160/story_images5.jpg 160w, images/320/story_images5.jpg 320w, images/480/story_images5.jpg 480w, images/story_images5.jpg 650w" width="650" height="372" src="images/160/story_images5.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -75,7 +75,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images6.jpg" width="650" height="372" src="images/thumbs/story_images6.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images6.jpg" data-srcset="images/160/story_images6.jpg 160w, images/320/story_images6.jpg 320w, images/480/story_images6.jpg 480w, images/story_images6.jpg 650w" width="650" height="372" src="images/160/story_images6.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -93,7 +93,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images7.jpg" width="650" height="372" src="images/thumbs/story_images7.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images7.jpg" data-srcset="images/160/story_images7.jpg 160w, images/320/story_images7.jpg 320w, images/480/story_images7.jpg 480w, images/story_images7.jpg 650w" width="650" height="372" src="images/160/story_images7.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -111,7 +111,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images8.jpg" width="650" height="372" src="images/thumbs/story_images8.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images8.jpg" data-srcset="images/160/story_images8.jpg 160w, images/320/story_images8.jpg 320w, images/480/story_images8.jpg 480w, images/story_images8.jpg 650w" width="650" height="372" src="images/160/story_images8.jpg">
         </div>
 
         <div class="card-teaser__description">
@@ -129,7 +129,7 @@
     <a class="card-teaser__content" href="#" itemprop="url">
 
         <div class="card-teaser__image">
-            <img data-src="images/story_images9.jpg" width="650" height="372" src="images/thumbs/story_images9.jpg">
+            <img class="lazyload" data-sizes="auto" data-src="images/story_images9.jpg" data-srcset="images/160/story_images9.jpg 160w, images/320/story_images9.jpg 320w, images/480/story_images9.jpg 480w, images/story_images9.jpg 650w" width="650" height="372" src="images/160/story_images9.jpg">
         </div>
 
         <div class="card-teaser__description">

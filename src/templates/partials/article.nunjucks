@@ -22,7 +22,7 @@
         <meta itemprop="width" content="650">
         <meta itemprop="height" content="372">
 
-        <img itemprop="url" data-src="images/story_images1.jpg" src="images/thumbs/story_images1.jpg" alt="">
+        <img itemprop="url" class="lazyload" data-sizes="auto" data-src="images/story_images1.jpg" data-srcset="images/160/story_images1.jpg 160w, images/320/story_images1.jpg 320w, images/480/story_images1.jpg 480w, images/story_images1.jpg 650w" width="650" height="372" src="images/160/story_images1.jpg">
 
         <figcaption itemprop="caption description">Image caption would go here</figcaption>
     </figure>
