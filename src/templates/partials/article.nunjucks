@@ -22,7 +22,7 @@
         <meta itemprop="width" content="650">
         <meta itemprop="height" content="372">
 
-        <img itemprop="url" src="/images/story_images1.jpg" alt="">
+        <img itemprop="url" data-src="images/story_images1.jpg" src="images/thumbs/story_images1.jpg" alt="">
 
         <figcaption itemprop="caption description">Image caption would go here</figcaption>
     </figure>

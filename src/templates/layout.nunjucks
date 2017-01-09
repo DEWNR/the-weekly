@@ -9,7 +9,7 @@
 
         <title></title>
 
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="css/main.css">
 
         <script src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js" async></script>
     </head>
@@ -35,9 +35,9 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
-        <script src="/js/lazy-load-images.js"></script>
-        <script src="/js/mobile-menu.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="js/lazy-load-images.js"></script>
+        <script src="js/mobile-menu.js"></script>
+        <script src="js/main.js"></script>
 
     </body>
 </html>
