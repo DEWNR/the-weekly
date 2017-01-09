@@ -20,6 +20,7 @@
 
 
     .featured-post__image {
+        background: $color-primary;
 
         img {
             display: block;
@@ -27,8 +28,11 @@
             max-height: 100%;
             height: auto;
             box-sizing: border-box;
+            transition: opacity $transition-time ease;
 
-            @media (min-width: 768px) {
+            .featured-post__content:focus &,
+            .featured-post__content:hover & {
+                opacity: 0.5;
             }
         }
     }

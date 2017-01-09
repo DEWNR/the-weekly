@@ -51,12 +51,19 @@
 
 
 .card-teaser__image {
+    background: $color-primary;
 
     img {
         display: block;
         height: auto;
         max-width: 100%;
         width: 100%;
+        transition: opacity $transition-time ease;
+
+        .card-teaser__content:focus &,
+        .card-teaser__content:hover & {
+            opacity: 0.5;
+        }
     }
 
 }
