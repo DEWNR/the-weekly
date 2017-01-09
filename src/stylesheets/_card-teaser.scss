@@ -1,21 +1,9 @@
-.teaser-index {
-    generate-grid: columns(1/2 1/2) gutter(10px);
+/*------------------------------------*\
+    #CARD-TEASER
+\*------------------------------------*/
 
-    @media (min-width: 768px) {
-        generate-grid: columns(1/3 1/3 1/3);
-    }
 
-    .site-content__complementary & {
-        padding: 0;
-        generate-grid: columns(1/2 1/2) gutter(10px);
-
-        @media (min-width: 768px) {
-            generate-grid: columns(1/2 1/2);
-        }
-    }
-}
-
-.teaser {
+.card-teaser {
     position: relative;
     line-height: 1.2;
 
@@ -24,28 +12,28 @@
     }
 }
 
-.teaser__content {
+.card-teaser__content {
     flex-direction: column;
     display: flex;
     height: 100%;
 }
 
 
-.teaser__description {
+.card-teaser__description {
     background: #fff;
     height: 100%;
     display: flex;
     transition: background-color $transition-time ease, color $transition-time ease;
     padding: $spacing-unit-base;
 
-    .teaser__content:focus &,
-    .teaser__content:hover & {
+    .card-teaser__content:focus &,
+    .card-teaser__content:hover & {
         background: $color-primary;
         color: $color-text-reverse;
     }
 }
 
-.teaser__url {
+.card-teaser__url {
     position: absolute;
     top: 0;
     right: 0;
@@ -54,7 +42,7 @@
 }
 
 
-.teaser__title {
+.card-teaser__title {
     @include font-size(13px 15px);
     align-self: center;
     font-family: $font-family-highlight;
@@ -62,7 +50,7 @@
 }
 
 
-.teaser__image {
+.card-teaser__image {
 
     img {
         display: block;

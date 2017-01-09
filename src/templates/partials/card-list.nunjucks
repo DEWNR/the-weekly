@@ -1,0 +1,7 @@
+<section class="card-list" itemscope itemtype="http://schema.org/ItemList">
+
+    {% include "partials/card-teasers.nunjucks" %}
+
+    {% include "partials/card-blocks.nunjucks" %}
+
+</section>

@@ -17,9 +17,7 @@
 
                 <h3 class="site-content__complementary-title">Latest</h3>
 
-                {% include "partials/teasers.nunjucks" %}
-
-                {% include "partials/blocks.nunjucks" %}
+                {% include "partials/card-list.nunjucks" %}
 
             </div>
 

@@ -1,0 +1,108 @@
+<div class="card-block  card-block--has-subtitle">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--has-vacancies" href="#">
+            <span class="card-block__title">Vacancies</span> <span class="card-block__subtitle">12/02/16</span>
+        </a>
+
+    </div>
+
+</div>
+
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--has-publications" href="#">
+            <span class="card-block__title">Publications</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--need-to-know" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">Need to know</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--news" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">News</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--social" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">Social</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--community" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">Community at the centre</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--profile" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">Profile</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--events" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">Events</span>
+        </a>
+
+    </div>
+
+</div>
+
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--people" href="#">
+            <em class="card-block__more">More from</em> <span class="card-block__tag">People matter</span>
+        </a>
+
+    </div>
+
+</div>

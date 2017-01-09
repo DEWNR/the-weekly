@@ -1,34 +1,20 @@
-.block-link-index {
-    padding: 10px 0;
-    generate-grid: columns(1/2 1/2) gutter(10px);
+/*------------------------------------*\
+    #CARD-BLOCK
+\*------------------------------------*/
 
-    @media (min-width: 768px) {
-        padding: $spacing-unit-base 0;
-        generate-grid: columns(1/3 1/3 1/3);
-    }
 
-    .site-content__complementary & {
-        padding: $spacing-unit-base 0 0;
-        generate-grid: columns(1/2 1/2) gutter(10px);
-
-        @media (min-width: 768px) {
-            generate-grid: columns(1/2 1/2);
-        }
-    }
-}
-
-.block-link {
+.card-block {
     color: $color-text-reverse;
     display: flex;
     height: 100%;
 }
 
-.block-link__content {
+.card-block__content {
     display: flex;
     width: 100%;
 }
 
-.block-link__url {
+.card-block__url {
     @include font-size(13px 15px);
     width: 100%;
     display: block;
@@ -49,7 +35,7 @@
         background-color: darken($color-grey-4, 10%);
     }
 
-    &.block-link__url--has-vacancies {
+    &.card-block__url--has-vacancies {
         background-color: $color-biscay;
         background-image: url('../images/icon_vacancies.svg');
 
@@ -59,7 +45,7 @@
         }
     }
 
-    &.block-link__url--has-publications {
+    &.card-block__url--has-publications {
         background-color: $color-cadillac;
         background-image: url('../images/icon_publications.svg');
 
@@ -69,48 +55,48 @@
         }
     }
 
-    &.block-link__url--need-to-know {
+    &.card-block__url--need-to-know {
         background-image: url('../images/icon_need-to-know.svg');
     }
 
-    &.block-link__url--news {
+    &.card-block__url--news {
         background-image: url('../images/icon_news.svg');
     }
 
-    &.block-link__url--social {
+    &.card-block__url--social {
         background-image: url('../images/icon_social.svg');
     }
 
-    &.block-link__url--community {
+    &.card-block__url--community {
         background-image: url('../images/icon_community.svg');
     }
 
-    &.block-link__url--profile {
+    &.card-block__url--profile {
         background-image: url('../images/icon_profile.svg');
     }
 
-    &.block-link__url--events {
+    &.card-block__url--events {
         background-image: url('../images/icon_events.svg');
     }
 
-    &.block-link__url--people {
+    &.card-block__url--people {
         background-image: url('../images/icon_vacancies.svg');
     }
 }
 
-.block-link__more {
+.card-block__more {
     display: block;
     margin: 0.2em;
     font-style: normal;
 }
 
-.block-link__title {
+.card-block__title {
     @include font-size(13px 15px);
     font-family: $font-family-highlight;
     font-weight: bold;
 }
 
-.block-link__subtitle {
+.card-block__subtitle {
     font-family: $font-family-highlight;
     display: block;
     position: relative;
@@ -119,7 +105,7 @@
     font-weight: bold;
 }
 
-.block-link__tag {
+.card-block__tag {
     @include font-size(13px 15px);
     font-family: $font-family-highlight;
     display: inline-block;
@@ -129,66 +115,66 @@
     text-align: center;
     transition: background-color 0.5s ease;
 
-    .block-link__url:focus &,
-    .block-link__url:hover & {
+    .card-block__url:focus &,
+    .card-block__url:hover & {
         //background: rgba(darken($color-flush-mahogany, 10%), 0.9);
     }
 
-    .block-link__url--news & {
+    .card-block__url--news & {
         background: rgba($color-jelly-bean, 0.9);
     }
 
-    .block-link__url--news:focus &,
-    .block-link__url--news:hover & {
+    .card-block__url--news:focus &,
+    .card-block__url--news:hover & {
         //background: rgba(darken($color-jelly-bean, 10%), 0.9);
     }
 
 
-    .block-link__url--social & {
+    .card-block__url--social & {
         background: rgba($color-buttercup, 0.9);
     }
 
-    .block-link__url--social:focus &,
-    .block-link__url--social:hover & {
+    .card-block__url--social:focus &,
+    .card-block__url--social:hover & {
         //background: rgba(darken($color-buttercup, 10%), 0.9);
     }
 
 
-    .block-link__url--community & {
+    .card-block__url--community & {
         background: rgba($color-hippie-blue, 0.9);
     }
 
-    .block-link__url--community:focus &,
-    .block-link__url--community:hover & {
+    .card-block__url--community:focus &,
+    .card-block__url--community:hover & {
         //background: rgba(darken($color-hippie-blue, 10%), 0.9);
     }
 
 
-    .block-link__url--profile & {
+    .card-block__url--profile & {
         background: rgba($color-lochmara, 0.9);
     }
 
-    .block-link__url--profile:focus &,
-    .block-link__url--profile:hover & {
+    .card-block__url--profile:focus &,
+    .card-block__url--profile:hover & {
         //background: rgba(darken($color-lochmara, 10%), 0.9);
     }
 
 
-    .block-link__url--events & {
+    .card-block__url--events & {
         background: rgba($color-daisy-bush, 0.9);
     }
 
-    .block-link__url--events:focus &,
-    .block-link__url--events:hover & {
+    .card-block__url--events:focus &,
+    .card-block__url--events:hover & {
         //background: rgba(darken($color-daisy-bush, 10%), 0.9);
     }
 
-    .block-link__url--people & {
+    .card-block__url--people & {
         background: rgba($color-chelsea-cucumber, 0.9);
     }
 
-    .block-link__url--people:focus &,
-    .block-link__url--people:hover & {
+    .card-block__url--people:focus &,
+    .card-block__url--people:hover & {
         //background: rgba(darken($color-chelsea-cucumber, 10%), 0.9);
     }
 }
