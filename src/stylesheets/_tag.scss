@@ -30,4 +30,12 @@
         margin-left: -$spacing-unit-base;
         padding: 4px $spacing-unit-base 3px;
     }
+
+    @media (min-width: 768px) {
+        .featured-post & {
+            right: auto;
+            left: 0;
+        }
+    }
+
 }

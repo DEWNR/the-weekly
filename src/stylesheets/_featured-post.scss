@@ -1,5 +1,6 @@
 .featured-post {
     margin: 0 0 $spacing-unit-base/2;
+    position: relative;
 }
 
     .featured-post__content {
@@ -29,6 +30,7 @@
             height: auto;
             box-sizing: border-box;
             transition: opacity $transition-time ease;
+            backface-visibility: hidden;
 
             .featured-post__content:focus &,
             .featured-post__content:hover & {
