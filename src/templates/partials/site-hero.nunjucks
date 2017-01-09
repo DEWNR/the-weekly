@@ -7,7 +7,7 @@
             <a class="featured-post__content" href="#">
 
                 <div class="featured-post__image">
-                    <img data-src="images/story_images1.jpg" width="650" height="372" src="images/thumbs/story_images1.jpg">
+                    <img src="images/story_images1.jpg" width="650" height="372">
                 </div>
 
                 <div class="featured-post__description">
