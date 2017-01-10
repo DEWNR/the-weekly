@@ -11,7 +11,7 @@
 
         <link rel="stylesheet" href="css/main.css">
 
-        <script src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js" async></script>
+        <script async src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js"></script>
     </head>
 
     {% if isHome %}
@@ -33,9 +33,9 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
-        <script src="js/lazysizes.js"></script>
-        <script src="js/mobile-menu.js"></script>
-        <script src="js/main.js"></script>
+        <script async src="js/lazysizes.js"></script>
+        <script async src="js/mobile-menu.js"></script>
+        <script async src="js/main.js"></script>
 
     </body>
 </html>
