@@ -8,6 +8,10 @@
     max-width: $max-width + $spacing-unit-base*2;
     padding: $spacing-unit-base/2 $spacing-unit-base;
 
+    .is-home & {
+        padding-bottom: 0;
+    }
+
     @media (min-width: 768px) {
         padding: $spacing-unit-base $spacing-unit-base 0;
     }
@@ -68,12 +72,12 @@
 
     .site-header__logo-wrap {
         position: relative;
-        margin-bottom: $spacing-unit-base;
         display: inline-block;
         width: 100%;
 
         @media (min-width: 768px) {
             width: auto;
+            margin-bottom: $spacing-unit-base;
         }
 
         .is-home & {

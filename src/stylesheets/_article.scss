@@ -12,7 +12,7 @@
 }
 
 .article__title {
-    @include font-size(20px 40px);
+    @include font-size(30px 40px);
     color: $color-text-base;
     font-family: $font-family-highlight;
     margin-bottom: $spacing-unit-base;
