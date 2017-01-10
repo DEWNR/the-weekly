@@ -1,5 +1,5 @@
 .article {
-    padding: $spacing-unit-base/2;
+    padding: $spacing-unit-base;
 
     @media (min-width: 768px) {
         padding: $spacing-unit-base;
@@ -20,8 +20,8 @@
 }
 
 .article__image {
-    margin-right: -$spacing-unit-base/2;
-    margin-left: -$spacing-unit-base/2;
+    margin-right: -$spacing-unit-base;
+    margin-left: -$spacing-unit-base;
     padding: 0;
 
     @media (min-width: 768px) {
@@ -39,7 +39,7 @@
     figcaption {
         background: $color-grey-3;
         font-size: 12px;
-        padding: 15px;
+        padding: 15px $spacing-unit-base;
     }
 
 }
