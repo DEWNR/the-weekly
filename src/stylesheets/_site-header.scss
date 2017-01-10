@@ -1,3 +1,8 @@
+/*------------------------------------*\
+    #SITE-HEADER
+\*------------------------------------*/
+
+
 .site-header {
     margin: 0 auto;
     max-width: $max-width + $spacing-unit-base*2;
@@ -8,23 +13,50 @@
     }
 }
 
-    .site-header__container {
-        text-align: justify;
-        font-size: 0;
-        line-height: 1;
 
-        &::after {
-            content: '';
-            display: inline-block;
-            width: 100%;
-        }
+.site-header__container {
+    text-align: justify;
+    font-size: 0;
+    line-height: 1;
+
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 100%;
     }
+}
+
+
+.site-header__item {
+    display: inline-block;
+    vertical-align: middle;
+
+    img {
+        display: block;
+    }
+}
+
 
     .site-header__item--logo {
         width: percentage(240/1004);
+        min-width: 108px;
+        display: inline-block;
 
         @media (min-width: 768px) {
             width: percentage(280/1004);
+            max-width: 155px;
+        }
+
+        .is-home & {
+            width: auto;
+            margin: 0 auto;
+            max-width: 250px;
+            display: block;
+
+            @media (min-width: 768px) {
+                display: inline-block;
+                margin: 0;
+            }
         }
 
         img {
@@ -34,57 +66,57 @@
         }
     }
 
-    .site-header__item {
-        display: inline-block;
-        vertical-align: middle;
-
-        img {
-            display: block;
-        }
-    }
 
     .site-header__item--partner-logos {
-        width: percentage(399/1004);
-        text-align: right;
         display: none;
 
-        @media (min-width: 768px) {
-            display: inline-block;
+        .is-home & {
+
+            @media (min-width: 768px) {
+                width: percentage(399/1004);
+                text-align: right;
+                display: inline-block;
+            }
+
         }
     }
 
-    .site-header__item--partner-logo {
-        box-sizing: border-box;
+        .site-header__item--partner-logo {
+            box-sizing: border-box;
 
-        &:first-child {
-            padding-left: 0;
+            &:first-child {
+                padding-left: 0;
+            }
+
+            img {
+                max-width: 100%;
+                width: 100%;
+            }
         }
 
-        img {
-            max-width: 100%;
-            width: 100%;
+        .site-header__item--sa-logo {
+            width: percentage(124/399);
         }
-    }
 
-    .site-header__item--sa-logo {
-        width: percentage(124/399);
-    }
+        .site-header__item--dewnr-logo {
+            width: percentage(245/399);
+            padding-left: percentage(30/399);
+        }
 
-    .site-header__item--dewnr-logo {
-        width: percentage(245/399);
-        padding-left: percentage(30/399);
-    }
 
 .site-header__item--menu {
     background: none;
     border: 0;
     outline: 0;
 
+    .is-home & {
+        display: none;
+    }
+
     span {
         font-size: 14px;
         color: $color-primary;
         text-transform: uppercase;
-        // height: 48px;
         display: inline-block;
         vertical-align: middle;
         margin-right: 10px;

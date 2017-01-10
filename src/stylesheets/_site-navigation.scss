@@ -4,13 +4,17 @@
 
 
 .site-navigation {
+    @include font-size(13px 15px);
     background: #fff;
     color: $color-primary;
-    // border-bottom: 4px solid $color-text-base;
     display: none;
 
-    @media (min-width: 768px) {
+    .is-home & {
         display: block;
+    }
+
+    @media (min-width: 768px) {
+        display: inline-block;
     }
 }
 
@@ -24,7 +28,12 @@
     max-width: $max-width + $spacing-unit-base*2;
     z-index: 99999;
     clear: fix;
-    padding: 0 $spacing-unit-base;
+    // padding: 0 $spacing-unit-base;
+
+    .is-home & {
+        padding: 0;
+        text-align: center;
+    }
 }
 
 
@@ -35,6 +44,7 @@
 
     &::after {
         content: ' | ';
+        color: $color-grey-4;
     }
 
     &:last-child {
@@ -50,6 +60,11 @@
     display: inline-block;
     color: $color-primary;
     outline: 0;
+
+    .is-home & {
+        padding-right: $spacing-unit-base/3;
+        padding-left: $spacing-unit-base/3;
+    }
 
     span {
         padding: 0 0 5px;
@@ -83,6 +98,10 @@
     }
 
     .site-navigation__item:first-child & {
-        padding-left: 0;
+        // padding-left: 0;
+    }
+
+    .site-navigation__item:last-child & {
+        padding-right: 0;
     }
 }

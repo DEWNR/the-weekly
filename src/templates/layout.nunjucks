@@ -24,8 +24,6 @@
 
             {% include "partials/site-header.nunjucks" %}
 
-            {% include "partials/site-navigation.nunjucks" %}
-
             {% block content %} {% endblock %}
 
             {% include "partials/site-footer.nunjucks" %}

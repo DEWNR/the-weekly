@@ -1,4 +1,4 @@
-<nav class="site-navigation" role="navigation">
+<nav class="site-header__item  site-navigation" role="navigation">
 
     <ul class="site-navigation__list">
         <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>About</span></a></li>
