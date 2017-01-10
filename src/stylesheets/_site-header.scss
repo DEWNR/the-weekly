@@ -9,7 +9,7 @@
     padding: $spacing-unit-base/2 $spacing-unit-base;
 
     @media (min-width: 768px) {
-        padding: $spacing-unit-base;
+        padding: $spacing-unit-base $spacing-unit-base 0;
     }
 }
 
@@ -66,6 +66,22 @@
         }
     }
 
+    .site-header__logo-wrap {
+        position: relative;
+        margin-bottom: $spacing-unit-base;
+        display: inline-block;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            width: auto;
+        }
+
+        .is-home & {
+            display: block;
+            width: auto;
+        }
+    }
+
 
     .site-header__item--partner-logos {
         display: none;
@@ -76,6 +92,10 @@
                 width: percentage(399/1004);
                 text-align: right;
                 display: inline-block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(0, -50%);
             }
 
         }
@@ -108,6 +128,10 @@
     background: none;
     border: 0;
     outline: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
 
     .is-home & {
         display: none;

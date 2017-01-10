@@ -33,6 +33,10 @@
     .is-home & {
         padding: 0;
         text-align: center;
+
+        @media (min-width: 768px) {
+            text-align: left;
+        }
     }
 }
 
@@ -64,6 +68,11 @@
     .is-home & {
         padding-right: $spacing-unit-base/3;
         padding-left: $spacing-unit-base/3;
+
+        @media (min-width: 768px) {
+            padding-right: $spacing-unit-base;
+            padding-left: $spacing-unit-base;
+        }
     }
 
     span {
@@ -98,7 +107,11 @@
     }
 
     .site-navigation__item:first-child & {
-        // padding-left: 0;
+
+        .is-home & {
+            padding-left: 0;
+        }
+
     }
 
     .site-navigation__item:last-child & {
