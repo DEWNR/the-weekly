@@ -26,8 +26,10 @@
     transition: background-color $transition-time ease;
     min-height: 246px;
 
-    @media (min-width: 768px) {
-        @include font-size(13px 20px);
+    .is-home & {
+        @media (min-width: 768px) {
+            @include font-size(13px 20px);
+        }
     }
 
     .site-content__complementary & {
@@ -41,7 +43,7 @@
 
     &.card-block__url--has-vacancies {
         background-color: $color-biscay;
-        background-image: url('../images/icon_vacancies.svg');
+        background-image: url('#{$image-path}icon_vacancies.svg');
 
         &:focus,
         &:hover {
@@ -51,7 +53,7 @@
 
     &.card-block__url--has-publications {
         background-color: $color-cadillac;
-        background-image: url('../images/icon_publications.svg');
+        background-image: url('#{$image-path}icon_publications.svg');
 
         &:focus,
         &:hover {
@@ -60,31 +62,31 @@
     }
 
     &.card-block__url--need-to-know {
-        background-image: url('../images/icon_need-to-know.svg');
+        background-image: url('#{$image-path}icon_need-to-know.svg');
     }
 
     &.card-block__url--news {
-        background-image: url('../images/icon_news.svg');
+        background-image: url('#{$image-path}icon_news.svg');
     }
 
     &.card-block__url--social {
-        background-image: url('../images/icon_social.svg');
+        background-image: url('#{$image-path}icon_social.svg');
     }
 
     &.card-block__url--community {
-        background-image: url('../images/icon_community.svg');
+        background-image: url('#{$image-path}icon_community.svg');
     }
 
     &.card-block__url--profile {
-        background-image: url('../images/icon_profile.svg');
+        background-image: url('#{$image-path}icon_profile.svg');
     }
 
     &.card-block__url--events {
-        background-image: url('../images/icon_events.svg');
+        background-image: url('#{$image-path}icon_events.svg');
     }
 
     &.card-block__url--people {
-        background-image: url('../images/icon_vacancies.svg');
+        background-image: url('#{$image-path}icon_vacancies.svg');
     }
 }
 

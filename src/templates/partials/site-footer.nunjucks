@@ -2,13 +2,13 @@
 
     <div class="site-footer__container">
 
-        <a class="site-footer__item  site-footer__item--logo" href="/"><img src="images/weekly-logotype--reversed.png" alt="The Weekly"></a>
+        <a class="site-footer__item  site-footer__item--logo" href="/"><img src="{{ image_path }}weekly-logotype--reversed.png" alt="The Weekly"></a>
 
         <div class="site-footer__item  site-footer__item--partner-logos">
 
-            <a class="site-footer__item  site-footer__item--partner-logo  site-footer__item--sa-logo" href="http://www.southaustralia.com"><img src="images/south-australia-logotype--reversed.svg" alt="South Australia"></a>
+            <a class="site-footer__item  site-footer__item--partner-logo  site-footer__item--sa-logo" href="http://www.southaustralia.com"><img src="{{ image_path }}south-australia-logotype--reversed.svg" alt="South Australia"></a>
 
-            <a class="site-footer__item  site-footer__item--partner-logo  site-footer__item--dewnr-logo" href="http://www.environment.sa.gov.au"><img alt="Department of Environment, Water and Natural Resources" class="u-hidden u-display-inline-block-retina" src="images/dewnr-logotype--reversed.svg"></a>
+            <a class="site-footer__item  site-footer__item--partner-logo  site-footer__item--dewnr-logo" href="http://www.environment.sa.gov.au"><img alt="Department of Environment, Water and Natural Resources" src="{{ image_path }}dewnr-logotype--reversed.svg"></a>
 
         </div>
 

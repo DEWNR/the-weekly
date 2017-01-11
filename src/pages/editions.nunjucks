@@ -1,0 +1,27 @@
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="site-content  site-content--twocol">
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                <script type="text/javascript" src="http://dewnrcomms.createsend.com/t/r/p/yuidhj/0/1/0/1/0/"></script>
+
+            </main>
+
+            <div class="site-content__complementary" role="complementary">
+
+                <h3 class="site-content__complementary-title">Latest</h3>
+
+                {% include "partials/card-list.nunjucks" %}
+
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}

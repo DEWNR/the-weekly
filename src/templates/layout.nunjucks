@@ -1,3 +1,7 @@
+{% set image_path = 'images/' %}
+{% set css_path = 'css/' %}
+{% set js_path = 'js/' %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +13,7 @@
 
         <title></title>
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="{{ css_path }}main.css">
 
         <script async src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js"></script>
     </head>
@@ -33,9 +37,9 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
-        <script async src="js/lazysizes.js"></script>
-        <script async src="js/mobile-menu.js"></script>
-        <script async src="js/main.js"></script>
+        <script async src="{{ js_path }}/lazysizes.js"></script>
+        <script async src="{{ js_path }}/mobile-menu.js"></script>
+        <script async src="{{ js_path }}/main.js"></script>
 
     </body>
 </html>
