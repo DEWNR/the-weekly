@@ -9,9 +9,34 @@
     height: 100%;
 }
 
+.card-block--text {
+    background: #ddd8d1;
+    color: $color-primary;
+    padding: $spacing-unit-base;
+}
+
 .card-block__content {
     display: flex;
     width: 100%;
+
+    .card-block--text & {
+        display: block;
+
+        a {
+            color: $color-primary;
+            font-weight: bold;
+
+            &:focus,
+            &:hover {
+                border-bottom: 1px dashed $color-grey-1;
+            }
+        }
+
+        p {
+            @include font-size(10px 14px);
+            margin: 0;
+        }
+    }
 }
 
 .card-block__url {
@@ -107,6 +132,11 @@
 
     .site-content__complementary & {
         @include font-size(13px 15px);
+    }
+
+    .card-block--text & {
+        font-size: 20px;
+        margin-bottom: $spacing-unit-base/2;
     }
 }
 

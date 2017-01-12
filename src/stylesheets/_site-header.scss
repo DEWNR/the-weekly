@@ -93,6 +93,7 @@
         .is-home & {
 
             @media (min-width: 768px) {
+                padding-top: 5px;
                 width: percentage(399/1004);
                 text-align: right;
                 display: inline-block;

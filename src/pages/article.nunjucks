@@ -3,7 +3,7 @@
 {% block content %}
     <style>
         .fixedratio {
-            background-image: url('../images/story_images1.jpg');
+            background-image: url('images/story_images1.jpg');
         }
     </style>
 
