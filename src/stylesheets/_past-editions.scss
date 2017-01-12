@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #PAST-EDITIONS
+\*------------------------------------*/
+
+
+.past-editions {
+
+    ul {
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+        color: $color-grey-1;
+        border-bottom: 1px solid $color-grey-2;
+        padding: $spacing-unit-base/2 0 $spacing-unit-base/2.5;
+    }
+
+    a {
+        @include font-size(13px 15px);
+        align-self: center;
+        font-family: $font-family-highlight;
+        margin: 0;
+        font-weight: bold;
+    }
+
+}

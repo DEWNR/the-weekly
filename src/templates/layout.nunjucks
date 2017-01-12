@@ -37,9 +37,9 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
-        <script async src="{{ js_path }}/lazysizes.js"></script>
-        <script async src="{{ js_path }}/mobile-menu.js"></script>
-        <script async src="{{ js_path }}/main.js"></script>
+        <script async src="{{ js_path }}lazysizes.js"></script>
+        <script async src="{{ js_path }}mobile-menu.js"></script>
+        <script async src="{{ js_path }}main.js"></script>
 
     </body>
 </html>

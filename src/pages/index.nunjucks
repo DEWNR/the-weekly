@@ -2,6 +2,12 @@
 {% set isHome = true %}
 
 {% block content %}
+    <style>
+        .fixedratio {
+            background-image: url('../images/story_images1.jpg');
+        }
+    </style>
+
     <div class="site-content">
 
         {% include "partials/site-hero.nunjucks" %}

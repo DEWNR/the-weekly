@@ -9,7 +9,18 @@
 
             <main class="site-content__main" role="main">
 
-                <script type="text/javascript" src="http://dewnrcomms.createsend.com/t/r/p/yuidhj/0/1/0/1/0/"></script>
+                <div class="article">
+
+                    <h1 class="article__title">Editions</h1>
+
+                    <div class="past-editions">
+
+                        <!--input type="text" class="search past-editions__search" placeholder="Filter editions..."-->
+
+                        <script type="text/javascript" src="http://dewnrcomms.createsend.com/t/r/p/yuidhj/0/1/0/1/0/"></script>
+                    </div>
+
+                </div>
 
             </main>
 
