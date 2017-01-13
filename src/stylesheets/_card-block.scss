@@ -35,6 +35,10 @@
         p {
             @include font-size(10px 14px);
             margin: 0;
+
+            .site-content__complementary & {
+                font-size: 10px;
+            }
         }
     }
 }
