@@ -9,7 +9,7 @@
 
     <header class="article__header">
 
-        <p class="article__meta"><a href="#" class="tag  tag--news">News</a> <time class="article__pubdate" itemprop="datePublished" datetime="2016-11-9">9 November 2016</time></p>
+        <p class="article__meta"><a href="#" class="tag  tag--News">News</a> <time class="article__pubdate" itemprop="datePublished" datetime="2016-11-9">9 November 2016</time></p>
 
         <h1 class="article__title" itemprop="headline">Adelaide carbon neutral plan launched</h1>
 
