@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title></title>
+
+        <style>
+            body {
+                background: #eee;
+            }
+
+            .card-list {
+                overflow: hidden;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .card-teaser {
+                width: 33%;
+                float: left;
+                display: flex;
+            }
+
+            .card-teaser__content {
+                margin: 10px;
+                background: #fff;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .card-teaser__image img {
+                width: 100%;
+                vertical-align: middle;
+                transition: opacity 0.4s ease;
+                opacity: 1;
+            }
+
+            .card-teaser__description {
+                padding: 20px;
+                display: flex;
+                height: 100%;
+                flex: 1;
+                transition: all 0.4s ease;
+            }
+
+            .card-teaser__title {
+                margin: 0;
+                align-self: center;
+            }
+
+            .card-teaser__image {
+                background: rgba(0, 0, 0, 0);
+                transition: all 0.4s ease;
+            }
+
+
+            .card-teaser__content:hover .card-teaser__image {
+                background: rgba(0, 0, 0, 1);
+            }
+
+            .card-teaser__content:hover img {
+                opacity: 0.5;
+            }
+
+            .card-teaser__content:hover .card-teaser__description {
+                background: rgba(0, 0, 0, 1);
+                color: #fff;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+
+        <div class="card-list">
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                        <h2 class="card-teaser__title">Major achievements for Green Army graduates</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                        <h2 class="card-teaser__title">Keeping a pygmy blue whale comfortable</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                        <h2 class="card-teaser__title">Natural Resources SE teaming up with SAHMRI to get resilient</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                       <h2 class="card-teaser__title">The return of Bazza the Bunyip</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                        <h2 class="card-teaser__title">Here’s thj lkdsfjlkads jlkdasj ldaj dflajda ldfsa ;dsa;flk ajd;ldaf j klasdjf le latest from the Good Living blog</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+            <article class="card-teaser">
+
+                <a class="card-teaser__content" href="#">
+
+                    <div class="card-teaser__image">
+                        <img src="images/story_images2.jpg">
+                    </div>
+
+                    <div class="card-teaser__description">
+                        <h2 class="card-teaser__title">Preventing computer vision syndrome</h2>
+                    </div>
+
+                </a>
+
+            </article>
+
+
+        </div>
+
+
+    </body>
+</html>
