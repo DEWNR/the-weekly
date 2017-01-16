@@ -1,0 +1,39 @@
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="site-content  site-content--twocol">
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                <div class="article">
+
+                    <h1 class="article__title">Subscribe</h1>
+
+                    <div class="article__content">
+
+                        <p>Keep up-to-date with the latest content by subscribing to The Weekly e-newsletter.</p>
+
+                        {% include "partials/subscribe-form.nunjucks" %}
+
+                    </div>
+
+                </div>
+
+            </main>
+
+            <div class="site-content__complementary" role="complementary">
+
+                <h3 class="site-content__complementary-title">Latest</h3>
+
+                {% include "partials/card-list.nunjucks" %}
+
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}

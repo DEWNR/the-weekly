@@ -1,0 +1,163 @@
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="site-content  site-content--twocol">
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                <div class="article">
+
+                    <h1 class="article__title">Publications</h1>
+
+                    <div class="publication-list">
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                        <div class="publication">
+
+                            <div class="publication__image">
+                                <img src="http://placehold.it/180x195">
+                            </div>
+
+                            <div class="publication__content">
+                                <h3 class="publication__title">Regional Landcare News</h3>
+
+                                <p class="publication__subtitle">Natural Resources Adelaide and Mount Lofty Ranges</p>
+
+                                <time class="publication__pubdate">November 2016</time>
+                            </div><!-- .publication__content -->
+
+                        </div><!-- .publication -->
+
+                    </div><!-- .publication-list -->
+
+                </div>
+
+            </main>
+
+            <div class="site-content__complementary" role="complementary">
+
+                <h3 class="site-content__complementary-title">Latest</h3>
+
+                {% include "partials/card-list.nunjucks" %}
+
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}

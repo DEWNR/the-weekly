@@ -39,6 +39,7 @@
 
         <script async src="{{ js_path }}lazysizes.js"></script>
         <script async src="{{ js_path }}mobile-menu.js"></script>
+        <script async src="{{ js_path }}subscribe-form.js"></script>
         <script async src="{{ js_path }}main.js"></script>
 
     </body>

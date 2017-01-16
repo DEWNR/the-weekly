@@ -1,0 +1,79 @@
+{% extends 'layout.nunjucks' %}
+
+{% block content %}
+    <div class="site-content  site-content--twocol">
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                <div class="article">
+
+                    <h1 class="article__title">Vacancies</h1>
+
+                    <div class="article__content">
+
+                        <h3>Vacancies advertised across SA Government</h3>
+
+                        <p><strong>ASO2 Accounts Customer Services Officer</strong><br>
+                        Natural Resources South Australian Arid Lands – Port Augusta<br>
+                        Job ID# 2016-15918</p>
+
+                        <p><strong>ASO5 Marine Parks Senior Project Officer</strong><br>
+                        Regional Programs – Adelaide<br>
+                        Job ID# 2016-15853</p>
+
+                        <p><a href="#">More information</a></p>
+
+
+                        <h3>Vacancies advertised externally</h3>
+
+                        <p><strong>ASO5 Reconciliation Project Officer</strong><br>
+                        People, Capability and Culture – Adelaide<br>
+                        Job ID# 2016-15863</p>
+
+                        <p><strong>ASO7 Principal Science Communications</strong><br>
+                        Science, Monitoring and Knowledge Branch – Adelaide<br>
+                        Job ID# 2016-16005<br>
+                        Note: this vacancy will be live on Thursday 24 November.</p>
+
+                        <p><strong>ASO3 Heritage Officer</strong><br>
+                        Conservation and Land Management – Adelaide<br>
+                        Job ID# 2016-16006<br>
+                        Note: this vacancy will be live on Thursday 24 November.</p>
+
+                        <p><strong>ASO7 Parks and Co-Management Manager</strong><br>
+                        Natural Resources Alinytjara Wilurara – Ceduna<br>
+                        Job ID# 2016-15976</p>
+
+                        <p><strong>ASO5 Aboriginal Communities Community&nbsp;</strong><br>
+                        Engagement Coordinator<br>
+                        Natural Resources Adelaide and Mount Lofty Ranges – Eastwood<br>
+                        Job ID# 2016-15845</p>
+
+                        <p><strong>PO1 Project Officer</strong><br>
+                        Regional Programs – Adelaide<br>
+                        Job ID# 2016-15944</p>
+
+                        <p><a href="#">More information</a></p>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+            <div class="site-content__complementary" role="complementary">
+
+                <h3 class="site-content__complementary-title">Latest</h3>
+
+                {% include "partials/card-list.nunjucks" %}
+
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}
