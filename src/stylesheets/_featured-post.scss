@@ -21,6 +21,7 @@
 
 
     .featured-post__image {
+        position: relative;
         background: $color-primary;
 
         img {
@@ -28,15 +29,30 @@
             max-height: 100%;
             height: auto;
             box-sizing: border-box;
-            transition: opacity $transition-time ease;
             backface-visibility: hidden;
             vertical-align: middle;
-
-            .featured-post__content:focus &,
-            .featured-post__content:hover & {
-                opacity: 0.5;
-            }
         }
+
+        &::after {
+             content: '';
+             display: block;
+             position: absolute;
+             z-index: 20;
+             background: rgba($color-primary, 0);
+             overflow: hidden;
+             transition: background-color $transition-time ease;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+         }
+
+         .featured-post__content:focus &,
+         .featured-post__content:hover & {
+             &::after {
+                 background: rgba($color-primary, 0.6);
+             }
+         }
     }
 
     .featured-post__description {
@@ -47,11 +63,13 @@
         align-self: center;
         padding: $spacing-unit-base;
         background: #fff;
-        transition: background-color $transition-time ease;
+        transition: background-color $transition-time ease, color $transition-time ease;
+        color: $color-text-base;
 
         .featured-post__content:focus &,
         .featured-post__content:hover & {
             background: $color-primary;
+            color: #fff;
 
             @media (min-width: 768px) {
                 background: none;
@@ -66,12 +84,6 @@
         p {
             line-height: 1.5;
             margin: 0;
-            transition: color $transition-time ease;
-
-            .featured-post__content:focus &,
-            .featured-post__content:hover & {
-                color: $color-text-reverse;
-            }
         }
     }
 
@@ -81,10 +93,4 @@
         margin: 0 0 $spacing-unit-base;
         padding-right: $spacing-unit-base;
         line-height: 1.1;
-        transition: color $transition-time ease;
-
-        .featured-post__content:focus &,
-        .featured-post__content:hover & {
-            color: $color-text-reverse;
-        }
     }
