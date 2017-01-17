@@ -28,7 +28,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--need-to-know" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">Need to know</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Need to know</span>
         </a>
 
     </div>
@@ -40,7 +40,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--news" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">News</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">News</span>
         </a>
 
     </div>
@@ -52,7 +52,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--social" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">Social</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Social</span>
         </a>
 
     </div>
@@ -64,7 +64,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--community" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">Community at the centre</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Community at the centre</span>
         </a>
 
     </div>
@@ -76,7 +76,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--profile" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">Profile</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Profile</span>
         </a>
 
     </div>
@@ -88,7 +88,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--events" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">Events</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Events</span>
         </a>
 
     </div>
@@ -100,7 +100,7 @@
     <div class="card-block__content">
 
         <a class="card-block__url  card-block__url--people" href="#">
-            <em class="card-block__more">Browse past</em> <span class="card-block__tag">People matter</span>
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">People matter</span>
         </a>
 
     </div>
