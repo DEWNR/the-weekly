@@ -23,8 +23,14 @@
     background: #fff;
     // height: 100%;
     // display: flex;
-    transition: all $transition-time ease;
+    transition: background-color $transition-time ease, color $transition-time ease;
     padding: $spacing-unit-base;
+
+    .card-teaser__content:focus &,
+    .card-teaser__content:hover & {
+        background: $color-primary;
+        color: $color-text-reverse;
+    }
 }
 
 .card-teaser__url {
@@ -54,17 +60,11 @@
         transition: opacity $transition-time ease;
         backface-visibility: hidden;
         vertical-align: middle;
+
+        .card-teaser__content:focus &,
+        .card-teaser__content:hover & {
+            opacity: 0.5;
+        }
     }
 
-}
-
-.card-teaser__content:focus .card-teaser__description,
-.card-teaser__content:hover .card-teaser__description {
-    background: $color-primary;
-    color: $color-text-reverse;
-}
-
-.card-teaser__content:focus img,
-.card-teaser__content:hover img {
-    opacity: 0.5;
 }

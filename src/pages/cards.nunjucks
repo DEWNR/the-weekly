@@ -1,131 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
+{% extends 'layout.nunjucks' %}
+{% set isHome = true %}
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% block content %}
+    <style>
+        .fixedratio {
+            background-image: url('images/story_images1.jpg');
+        }
+    </style>
 
-        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="site-content">
 
-        <title></title>
+        {% include "partials/site-hero.nunjucks" %}
 
-        <link rel="stylesheet" href="css/main.css">
+        {% include "partials/site-background.nunjucks" %}
 
-        <script async src="//fast.fonts.net/jsapi/d467c9ec-9964-413b-94de-d1446d4d684b.js"></script>
-
-    </head>
-
-
-    <body>
+        <div class="site-content__inner">
 
 
-        <div class="testcard-list">
+                <div class="testcard-list">
 
 
-            <article class="testcard-teaser">
+                    <article class="testcard-teaser">
 
-                <a class="testcard-teaser__content" href="#">
+                        <a class="testcard-teaser__content" href="#">
 
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
 
-                    <div class="testcard-teaser__description">
-                        <h2 class="testcard-teaser__title">Major achievements for Green Army graduates</h2>
-                    </div>
+                            <div class="testcard-teaser__description">
+                                <h2 class="testcard-teaser__title">Major achievements for Green Army graduates</h2>
+                            </div>
 
-                </a>
+                        </a>
 
-            </article>
-
-
-            <article class="testcard-teaser">
-
-                <a class="testcard-teaser__content" href="#">
-
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
-
-                    <div class="testcard-teaser__description">
-                        <h2 class="testcard-teaser__title">Keeping a pygmy blue whale comfortable</h2>
-                    </div>
-
-                </a>
-
-            </article>
+                    </article>
 
 
-            <article class="testcard-teaser">
+                    <article class="testcard-teaser">
 
-                <a class="testcard-teaser__content" href="#">
+                        <a class="testcard-teaser__content" href="#">
 
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
 
-                    <div class="testcard-teaser__description">
-                        <h2 class="testcard-teaser__title">Natural Resources SE teaming up with SAHMRI to get resilient</h2>
-                    </div>
+                            <div class="testcard-teaser__description">
+                                <h2 class="testcard-teaser__title">Keeping a pygmy blue whale comfortable</h2>
+                            </div>
 
-                </a>
+                        </a>
 
-            </article>
-
-
-            <article class="testcard-teaser">
-
-                <a class="testcard-teaser__content" href="#">
-
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
-
-                    <div class="testcard-teaser__description">
-                       <h2 class="testcard-teaser__title">The return of Bazza the Bunyip</h2>
-                    </div>
-
-                </a>
-
-            </article>
+                    </article>
 
 
-            <article class="testcard-teaser">
+                    <article class="testcard-teaser">
 
-                <a class="testcard-teaser__content" href="#">
+                        <a class="testcard-teaser__content" href="#">
 
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
 
-                    <div class="testcard-teaser__description">
-                        <h2 class="testcard-teaser__title">Here’s thj lkdsfjlkads jlkdasj ldaj dflajda ldfsa ;dsa;flk ajd;ldaf j klasdjf le latest from the Good Living blog</h2>
-                    </div>
+                            <div class="testcard-teaser__description">
+                                <h2 class="testcard-teaser__title">Natural Resources SE teaming up with SAHMRI to get resilient</h2>
+                            </div>
 
-                </a>
+                        </a>
 
-            </article>
+                    </article>
 
 
-            <article class="testcard-teaser">
+                    <article class="testcard-teaser">
 
-                <a class="testcard-teaser__content" href="#">
+                        <a class="testcard-teaser__content" href="#">
 
-                    <div class="testcard-teaser__image">
-                        <img src="images/story_images2.jpg">
-                    </div>
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
 
-                    <div class="testcard-teaser__description">
-                        <h2 class="testcard-teaser__title">Preventing computer vision syndrome</h2>
-                    </div>
+                            <div class="testcard-teaser__description">
+                               <h2 class="testcard-teaser__title">The return of Bazza the Bunyip</h2>
+                            </div>
 
-                </a>
+                        </a>
 
-            </article>
+                    </article>
+
+
+                    <article class="testcard-teaser">
+
+                        <a class="testcard-teaser__content" href="#">
+
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
+
+                            <div class="testcard-teaser__description">
+                                <h2 class="testcard-teaser__title">Here’s thj lkdsfjlkads jlkdasj ldaj dflajda ldfsa ;dsa;flk ajd;ldaf j klasdjf le latest from the Good Living blog</h2>
+                            </div>
+
+                        </a>
+
+                    </article>
+
+
+                    <article class="testcard-teaser">
+
+                        <a class="testcard-teaser__content" href="#">
+
+                            <div class="testcard-teaser__image">
+                                <img src="images/story_images2.jpg">
+                            </div>
+
+                            <div class="testcard-teaser__description">
+                                <h2 class="testcard-teaser__title">Preventing computer vision syndrome</h2>
+                            </div>
+
+                        </a>
+
+                    </article>
+
+
+                </div>
 
 
         </div>
 
-
-    </body>
-</html>
+    </div>
+{% endblock %}
