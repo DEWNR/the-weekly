@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #SITE-COPYRIGHT
+\*------------------------------------*/
+
+.site-copyright {
+    margin: 0 auto;
+    max-width: 1004px;
+    color: $color-grey-1;
+    font-size: 12px;
+
+    @media (min-width: 768px) {
+        padding: $spacing-unit-base 0;
+    }
+
+    a {
+        color: $color-grey-1;
+    }
+}

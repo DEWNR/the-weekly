@@ -22,7 +22,12 @@
     }
 
     .site-footer__item--logo {
-        width: percentage(190/1004);
+        width: 190px;
+        margin: 0 0 $spacing-unit-base;
+
+        @media (min-width: 768px) {
+            margin: 0;
+        }
 
         img {
             vertical-align: middle;
@@ -41,8 +46,19 @@
     }
 
     .site-footer__item--partner-logos {
-        width: percentage(328/1004);
-        text-align: right;
+        width: 80%;
+        max-width: 320px;
+        min-width: 280px;
+        margin: 0 0 $spacing-unit-base;
+
+        @media (min-width: 768px) {
+            width: percentage(328/1004);
+            text-align: right;
+            display: inline-block;
+            max-width: none;
+            padding-top: 10px;
+            margin: 0;
+        }
     }
 
     .site-footer__item--partner-logo {
