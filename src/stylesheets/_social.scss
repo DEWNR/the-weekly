@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    #SOCIAL
+\*------------------------------------*/
+
+
+.social {
+    color: $color-primary;
+    margin-left: $spacing-unit-base/2;
+}
+
+    /*span*/.social__title {
+        font-size: 80%;
+    }
+
+    /*ul*/.social__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .social__item {
+            vertical-align: top;
+            display: inline-block;
+
+            & + & {
+                margin-left: $spacing-unit-base/2;
+            }
+        }
+
+            /*a*/.social__link {
+                background: {
+                    color: $color-secondary;
+                    image: url(#{$image-path}weekly-social-sprite.svg);
+                }
+                border:         none;
+                border-radius:  50%;
+                display:        block;
+                height: 36px;
+                width: 36px;
+                margin-bottom:  $spacing-unit-base * 0.5;
+
+                & + & {
+                    margin-left: $spacing-unit-base/2;
+                }
+            }
+
+            .social__link--twitter {
+                background-position: 0 0;
+            }
+
+            .social__link--facebook {
+                background-position: 0 -36px;
+            }
+
+            .social__link--email {
+                background-position: 0 -72px;
+            }
+
+            .social__link--print {
+                background-position: 0 -108px;
+            }

@@ -70,6 +70,30 @@
         }
     }
 
+
+    .site-header__item--descriptor {
+        display: none;
+
+        .is-home & {
+            width: percentage(300/1004);
+            min-width: 108px;
+
+            @media (min-width: 768px) {
+                width: percentage(280/1004);
+                max-width: 155px;
+                display: inline-block;
+                margin-left: $spacing-unit-base;
+                margin-top: 6px;
+            }
+        }
+
+        img {
+            vertical-align: middle;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
     .site-header__logo-wrap {
         position: relative;
         display: inline-block;

@@ -37,6 +37,8 @@
         {% include "partials/mobile-menu.nunjucks" %}
 
 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
         <script src="{{ js_path }}lazysizes.js"></script>
         <script src="{{ js_path }}mobile-menu.js"></script>
         <script src="{{ js_path }}subscribe-form.js"></script>

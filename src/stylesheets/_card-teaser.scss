@@ -6,8 +6,6 @@
 .card-teaser {
     position: relative;
     line-height: 1.2;
-    overflow: hidden;
-    display: flex;
 
     a {
         outline: 0;
@@ -15,20 +13,18 @@
 }
 
 .card-teaser__content {
-    flex-direction: column;
-    display: flex;
+    // flex-direction: column;
+    // display: flex;
     // height: 100%;
-    width: 100%;
 }
 
 
 .card-teaser__description {
     background: #fff;
-    height: 100%;
-    display: flex;
+    // height: 100%;
+    // display: flex;
     transition: background-color $transition-time ease, color $transition-time ease;
     padding: $spacing-unit-base;
-    flex: 1;
 
     .card-teaser__content:focus &,
     .card-teaser__content:hover & {
@@ -55,34 +51,19 @@
 
 
 .card-teaser__image {
-    position: relative;
     background: $color-primary;
 
     img {
         height: auto;
         max-width: 100%;
         width: 100%;
+        transition: opacity $transition-time ease;
+        backface-visibility: hidden;
         vertical-align: middle;
-    }
 
-   &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        z-index: 20;
-        background: rgba($color-primary, 0);
-        overflow: hidden;
-        transition: background-color $transition-time ease;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-    }
-
-    .card-teaser__content:focus &,
-    .card-teaser__content:hover & {
-        &::after {
-            background: rgba($color-primary, 0.6);
+        .card-teaser__content:focus &,
+        .card-teaser__content:hover & {
+            opacity: 0.5;
         }
     }
 

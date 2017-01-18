@@ -39,6 +39,8 @@
         <p>You can keep up to date with everything carbon neutral at the <a href="#">Low Carbon Future SA</a> Facebook page.</p>
     </div>
 
+    {% include "partials/social.nunjucks" %}
+
 
     <footer class="article__footer">
 
