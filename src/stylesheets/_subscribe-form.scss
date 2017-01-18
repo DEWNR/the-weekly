@@ -1,3 +1,54 @@
 /*------------------------------------*\
     #SUBSCRIBE-FORM
 \*------------------------------------*/
+
+
+.subscribe-form__item {
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+    > button[type=button] {
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+
+    > input:not([type=submit]) {
+        min-width: 60%;
+        padding: 0.5em 1em;
+    }
+}
+
+
+.subscribe-form__label {
+    min-width: 27%;
+    display: inline-block;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
+
+.subscribe-form__input {
+    font-family: $font-family-base;
+    font-weight: 300;
+    color: $color-text-base;
+    line-height: 1.5;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.subscribe-form__error {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 27%;
+        padding-left: 4px;
+    }
+}
