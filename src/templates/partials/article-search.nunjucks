@@ -1,0 +1,18 @@
+<div class="article-search">
+
+    <h1 class="article__title">Articles</h1>
+
+    <input name="ctl02$phBodyTop0" type="text" id="ctl02_phBodyTop0" class="inputBox" />
+    <!--select name="ctl02$phBodyTop125" id="ctl02_phBodyTop125" class="scSearchInputBox">
+        <option value=""></option>
+        <option selected="selected" value="People matter">People matter</option>
+        <option value="Need to know">Need to know</option>
+        <option value="Social">Social</option>
+        <option value="Events">Events</option>
+        <option value="News">News</option>
+        <option value="Community at the centre">Community at the centre</option>
+        <option value="Profile">Profile</option>
+    </select-->
+    <input type="submit" name="ctl02$phBodyTop66" value="Search" id="ctl02_phBodyTop66" />
+
+</div>

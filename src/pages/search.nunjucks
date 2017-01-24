@@ -1,0 +1,27 @@
+{% extends 'layout.nunjucks' %}
+{% set isHome = true %}
+
+{% block content %}
+
+    <div class="site-content">
+
+        {% include "partials/site-background.nunjucks" %}
+
+        <div class="site-content__inner">
+
+            <main class="site-content__main" role="main">
+
+                {% include "partials/article-search.nunjucks" %}
+
+                <section class="card-list" itemscope itemtype="http://schema.org/ItemList">
+
+                    {% include "partials/card-teasers.nunjucks" %}
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+{% endblock %}

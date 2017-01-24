@@ -4,7 +4,6 @@
         <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>About</span></a></li>
         <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Editions</span></a></li>
         <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Subscribe</span></a></li>
-        <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Contact</span></a></li>
         <li class="site-navigation__item"><a class="site-navigation__link" href="#"><span>Search</span></a></li>
     </ul>
 

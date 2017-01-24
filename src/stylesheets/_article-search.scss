@@ -1,0 +1,36 @@
+/*------------------------------------*\
+    #ARICLE-SEARCH
+\*------------------------------------*/
+
+
+.article-search {
+    padding: $spacing-unit-base 0 $spacing-unit-base;
+
+    .inputBox,
+    .scSearchInputBox {
+        @include font-size(13px 15px);
+        border: 1px solid $color-primary;
+        font-family: $font-family-base;
+        font-weight: 300;
+        color: $color-text-base;
+        line-height: 1.5;
+        outline: 0;
+        padding: $spacing-unit-base/3 $spacing-unit-base/2;
+        line-height: 1;
+    }
+
+    input[type="submit"] {
+        background: $color-primary;
+        border: 0;
+        color: $color-text-reverse;
+        padding: $spacing-unit-base/3 $spacing-unit-base/2;
+        border: 1px solid $color-primary;
+        outline: 0;
+        cursor: pointer;
+
+        &:focus,
+        &:hover {
+            background: darken($color-primary, 10%);
+        }
+    }
+}
