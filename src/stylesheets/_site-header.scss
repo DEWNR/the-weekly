@@ -74,9 +74,24 @@
     .site-header__item--descriptor {
         display: none;
 
+        @media (min-width: 768px) {
+            width: 206px;
+            display: inline-block;
+            margin-left: $spacing-unit-base;
+            margin-top: 3px;
+        }
+
         .is-home & {
-            width: percentage(300/1004);
+            width: 268px;
+            height: 104px;
             min-width: 108px;
+            background-image: url('#{$image-path}weekly-descriptor.svg');
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+
+            img {
+                display: none;
+            }
 
             @media (min-width: 768px) {
                 width: percentage(280/1004);
