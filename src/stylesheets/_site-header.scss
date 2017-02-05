@@ -4,9 +4,16 @@
 
 
 .site-header {
+    background: #fff;
+}
+
+
+.site-header__container {
+    text-align: justify;
+    font-size: 0;
+    line-height: 1;
     margin: 0 auto;
     max-width: $max-width + $spacing-unit-base*2;
-    padding: $spacing-unit-base/2 $spacing-unit-base;
 
     .is-home & {
         padding-bottom: 0;
@@ -15,13 +22,6 @@
     @media (min-width: 768px) {
         padding: $spacing-unit-base $spacing-unit-base 0;
     }
-}
-
-
-.site-header__container {
-    text-align: justify;
-    font-size: 0;
-    line-height: 1;
 
     &::after {
         content: '';

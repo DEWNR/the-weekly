@@ -30,9 +30,15 @@
 
             {% block content %} {% endblock %}
 
-            {% include "partials/site-footer.nunjucks" %}
+            <div class="site-background">
+                <figure class="fixedratio">
+                    <span></span>
+                </figure>
+            </div>
 
         </div>
+
+        {% include "partials/site-footer.nunjucks" %}
 
         {% include "partials/mobile-menu.nunjucks" %}
 

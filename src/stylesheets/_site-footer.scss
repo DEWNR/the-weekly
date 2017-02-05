@@ -1,6 +1,6 @@
 .site-footer {
-    padding: $spacing-unit-base/2;
     background: #414141;
+    height: 192px;
 
     @media (min-width: 768px) {
         padding: $spacing-unit-base;
@@ -13,6 +13,7 @@
         line-height: 1;
         margin: 0 auto;
         max-width: 1004px;
+        padding: $spacing-unit-base/2;
 
         &::after {
             content: '';
