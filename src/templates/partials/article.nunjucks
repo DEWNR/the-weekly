@@ -37,6 +37,8 @@
         <p>The plan is now available <a href="#">online</a>.</p>
 
         <p>You can keep up to date with everything carbon neutral at the <a href="#">Low Carbon Future SA</a> Facebook page.</p>
+
+        <p><span class="caption">*Threatened Fauna Ecologist Luke Price, Fleurieu and Willunga Basin District Ecologist Elisa Sparrow, Central Hills District Ecologist Anthony Abley and Mid Torrens and Upper Onkaparinga District Officer William Hannaford. Taking the photo: Willunga, Sustainable Agriculture Officer Jeff Edwards.</span></p>
     </div>
 
     {% include "partials/social.nunjucks" %}

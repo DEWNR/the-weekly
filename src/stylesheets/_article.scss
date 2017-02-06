@@ -4,6 +4,13 @@
     @media (min-width: 768px) {
         padding: $spacing-unit-base;
     }
+
+    .caption {
+        background: $color-grey-3;
+        font-size: 12px;
+        padding: 15px $spacing-unit-base;
+        display: block;
+    }
 }
 
 .article__meta {
@@ -64,7 +71,9 @@
         padding-top: $spacing-unit-base;
     }
 
-    :first-child {
+    p:first-child,
+    h2:first-child,
+    h3:first-child {
         padding-top: 0;
     }
 
