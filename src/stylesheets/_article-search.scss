@@ -4,10 +4,14 @@
 
 
 .article-search {
-    padding: $spacing-unit-base 0 $spacing-unit-base;
+    padding: $spacing-unit-base;
 
-    .inputBox,
-    .scSearchInputBox {
+    @media (min-width: 768px) {
+        padding: $spacing-unit-base 0;
+    }
+
+    [type='text'],
+    select {
         @include font-size(13px 15px);
         border: 1px solid $color-primary;
         font-family: $font-family-base;
@@ -17,9 +21,29 @@
         outline: 0;
         padding: $spacing-unit-base/3 $spacing-unit-base/2;
         line-height: 1;
+        background: #fff;
+        width: 100%;
+        margin: 0 0 $spacing-unit-base/2;
+
+        @media (min-width: 768px) {
+            width: 260px;
+        }
     }
 
-    input[type="submit"] {
+    label {
+        display: block;
+        @include font-size(13px 15px);
+    }
+
+    select {
+        height: 33px;
+
+        @media (min-width: 768px) {
+            width: 200px;
+        }
+    }
+
+    [type='submit'] {
         background: $color-primary;
         border: 0;
         color: $color-text-reverse;
