@@ -15,8 +15,8 @@ var sass         = require('gulp-sass')
 var sourcemaps   = require('gulp-sourcemaps')
 
 var paths = {
-  src: path.join(config.root.src, config.tasks.css.src, '/**/*.{' + config.tasks.css.extensions + '}'),
-  dest: path.join(config.root.dest, config.tasks.css.dest)
+    src: path.join(config.root.src, config.tasks.css.src, '/**/*.{' + config.tasks.css.extensions + '}'),
+    dest: path.join(config.root.dest, config.tasks.css.dest)
 }
 
 var processors = [
@@ -28,14 +28,14 @@ var processors = [
 ]
 
 var cssTask = function () {
-  return gulp.src(paths.src)
-    .pipe(gulpif(!global.production, sourcemaps.init()))
-    .pipe(sass(config.tasks.css.sass))
-    .pipe(rucksack())
-    .pipe(postcss(processors))
-    .pipe(gulpif(!global.production, sourcemaps.write()))
-    .pipe(gulp.dest(paths.dest))
-    .pipe(browserSync.stream())
+    return gulp.src(paths.src)
+        .pipe(gulpif(!global.production, sourcemaps.init()))
+        .pipe(sass(config.tasks.css.sass))
+        .pipe(rucksack())
+        .pipe(postcss(processors))
+        .pipe(gulpif(!global.production, sourcemaps.write()))
+        .pipe(gulp.dest(paths.dest))
+        .pipe(browserSync.stream())
 }
 
 gulp.task('css', cssTask)

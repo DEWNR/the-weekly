@@ -10,18 +10,18 @@ var sourcemaps   = require('gulp-sourcemaps')
 var uglify       = require('gulp-uglify')
 
 var paths = {
-  src: path.join(config.root.src, config.tasks.js.src),
-  dest: path.join(config.root.dest, config.tasks.js.dest)
+    src: path.join(config.root.src, config.tasks.js.src),
+    dest: path.join(config.root.dest, config.tasks.js.dest)
 }
 
 var jsTask = function () {
     config.tasks.js.files.forEach(function (bundle) {
         return gulp.src(bundle.source)
-          .pipe(gulpif(!global.production, sourcemaps.init()))
-          .pipe(concat(bundle.filename))
-          .pipe(gulpif(!global.production, sourcemaps.write()))
-          .pipe(gulp.dest(paths.dest))
-          .pipe(browserSync.stream())
+            .pipe(gulpif(!global.production, sourcemaps.init()))
+            .pipe(concat(bundle.filename))
+            .pipe(gulpif(!global.production, sourcemaps.write()))
+            .pipe(gulp.dest(paths.dest))
+            .pipe(browserSync.stream())
     });
 }
 
