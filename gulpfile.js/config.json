@@ -7,11 +7,51 @@
 
     "tasks": {
 
+        "js": {
+          "src": "javascripts",
+          "dest": "js",
+          "files": [
+              {
+                "source": [
+                    "src/javascripts/lazysizes.js",
+                    "src/javascripts/mobile-menu.js",
+                    "src/javascripts/subscribe-form.js",
+                    "src/javascripts/main.js"
+                ],
+                "filename": "app.js"
+              }
+          ],
+          "extensions": ["js"]
+        },
+
+
         "images": {
             "src": "images",
             "dest": "images",
             "extensions": ["jpg", "png", "svg", "gif"]
         },
+
+
+        "fonts": {
+            "src": "fonts",
+            "dest": "fonts",
+            "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+        },
+
+
+        "css": {
+            "src": "stylesheets",
+            "dest": "css",
+            "autoprefixer": {
+                "browsers": ["last 3 version"]
+            },
+            "sass": {
+                "indentedSyntax": false,
+                "includePaths": ["./node_modules"]
+            },
+            "extensions": ["sass", "scss", "css"]
+        },
+
 
         "production": {
             "rev": true

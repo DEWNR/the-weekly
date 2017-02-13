@@ -14,7 +14,9 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 200;
-    src: url(#{$path-fonts}Dewnrger45Light.ttf);
+    src: url(#{$path-fonts}Dewnrger45Light.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger45Light.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger45Light.ttf) format('truetype');
 }
 
 
@@ -22,7 +24,9 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 200;
-    src: url(#{$path-fonts}Dewnrger46LightItalic.ttf);
+    src: url(#{$path-fonts}Dewnrger46LightItalic.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger46LightItalic.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger46LightItalic.ttf) format('truetype');
 }
 
 
@@ -30,7 +34,9 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 400;
-    src: url(#{$path-fonts}Dewnrger55Roman.ttf);
+    src: url(#{$path-fonts}Dewnrger55Roman.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger55Roman.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger55Roman.ttf) format('truetype');
 }
 
 
@@ -38,7 +44,9 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 400;
-    src: url(#{$path-fonts}Dewnrger56Italic.ttf);
+    src: url(#{$path-fonts}Dewnrger56Italic.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger56Italic.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger56Italic.ttf) format('truetype');
 }
 
 
@@ -46,7 +54,9 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: normal;
     font-weight: 700;
-    src: url(#{$path-fonts}Dewnrger65Bold.ttf);
+    src: url(#{$path-fonts}Dewnrger65Bold.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger65Bold.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger65Bold.ttf) format('truetype');
 }
 
 
@@ -54,5 +64,7 @@ $path-fonts: '/assets/fonts/' !default;
     font-family: Dewnrger;
     font-style: italic;
     font-weight: 700;
-    src: url(#{$path-fonts}Dewnrger66BoldItalic.ttf);
+    src: url(#{$path-fonts}Dewnrger66BoldItalic.woff2) format('woff2'),
+         url(#{$path-fonts}Dewnrger66BoldItalic.woff) format('woff'),
+         url(#{$path-fonts}Dewnrger66BoldItalic.ttf) format('truetype');
 }
