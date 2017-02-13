@@ -1,4 +1,4 @@
-{% extends 'layout.nunjucks' %}
+{% extends 'layouts/master.nunjucks' %}
 {% set isHome = true %}
 
 {% block content %}

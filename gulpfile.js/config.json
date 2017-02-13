@@ -8,7 +8,7 @@
     "tasks": {
 
         "js": {
-          "src": "javascripts",
+          "src": "",
           "dest": "js",
           "files": [
               {
@@ -22,6 +22,17 @@
               }
           ],
           "extensions": ["js"]
+        },
+
+
+        "html": {
+            "src": "html",
+            "dest": "./",
+            "partialData": ["html", "json"],
+            "templatePaths": ["./src/html"],
+            "templateFiles": ["./src/html/**/*.nunjucks", "!**/{layouts,partials,macros,data}/**"],
+            "extensions": ["nunjucks", "json"],
+            "excludeFolders": ["layouts", "partials", "macros", "data"]
         },
 
 

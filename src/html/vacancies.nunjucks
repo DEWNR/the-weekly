@@ -1,4 +1,4 @@
-{% extends 'layout.nunjucks' %}
+{% extends 'layouts/master.nunjucks' %}
 
 {% block content %}
     <div class="site-content  site-content--twocol">

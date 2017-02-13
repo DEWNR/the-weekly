@@ -2,7 +2,7 @@ var gulp            = require('gulp')
 var gulpSequence    = require('gulp-sequence')
 
 var assetTasks = ['fonts', 'images']
-var codeTasks = ['css', 'js']
+var codeTasks = ['html', 'css', 'js']
 
 var defaultTask = function(cb) {
     gulpSequence(assetTasks, codeTasks, cb)

@@ -1,6 +1,12 @@
-{% extends 'layout.nunjucks' %}
+{% extends 'layouts/master.nunjucks' %}
 
 {% block content %}
+    <style>
+        .fixedratio {
+            background-image: url('images/story_images1.jpg');
+        }
+    </style>
+
     <div class="site-content  site-content--twocol">
 
         {% include "partials/site-background.nunjucks" %}
@@ -9,19 +15,7 @@
 
             <main class="site-content__main" role="main">
 
-                <div class="article">
-
-                    <h1 class="article__title">Subscribe</h1>
-
-                    <div class="article__content">
-
-                        <p>Keep up-to-date with the latest content by subscribing to The Weekly e-newsletter.</p>
-
-                        {% include "partials/subscribe-form.nunjucks" %}
-
-                    </div>
-
-                </div>
+                {% include "partials/article.nunjucks" %}
 
             </main>
 
