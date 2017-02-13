@@ -64,6 +64,13 @@
         },
 
 
+        "browserSync": {
+            "server": {
+                "baseDir": "public"
+            }
+        },
+
+
         "production": {
             "rev": true
         }

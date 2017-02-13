@@ -23,8 +23,8 @@ var htmlTask = function(cb) {
         .pipe(render({
             path: config.tasks.html.templatePaths,
                 envOptions: {
-                watch: false
-            }
+                    watch: false
+                }
         }))
         .pipe(gulp.dest(paths.dest))
         .pipe(browserSync.stream())

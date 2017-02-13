@@ -5,7 +5,7 @@ var assetTasks = ['fonts', 'images']
 var codeTasks = ['html', 'css', 'js']
 
 var defaultTask = function(cb) {
-    gulpSequence(assetTasks, codeTasks, cb)
+    gulpSequence('clean', assetTasks, codeTasks, 'watch', cb)
 }
 
 gulp.task('default', defaultTask)
