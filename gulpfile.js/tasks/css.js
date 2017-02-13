@@ -4,7 +4,6 @@ if(!config.tasks.css) return
 var ant          = require('postcss-ant')
 var autoprefixer = require('autoprefixer')
 var browserSync  = require('browser-sync')
-var cssnano      = require('cssnano')
 var gulp         = require('gulp')
 var gulpif       = require('gulp-if')
 var mqpacker     = require('css-mqpacker')
@@ -23,8 +22,7 @@ var processors = [
     ant,
     rucksack,
     autoprefixer({browsers:['last 2 versions']}),
-    mqpacker,
-    cssnano
+    mqpacker
 ]
 
 var cssTask = function () {
