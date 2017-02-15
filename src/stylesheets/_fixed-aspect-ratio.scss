@@ -9,14 +9,14 @@
  * Useful for responsively embedding video.
  */
 
-.#{$sagovau-namespace}fixed-aspect-ratio {
+.fixed-aspect-ratio {
     height: 0;
     padding: 0;
     position: relative;
     width: 100%;
 }
 
-    .#{$sagovau-namespace}fixed-aspect-ratio__content {
+    .fixed-aspect-ratio__content {
         height: 100%;
         margin: 0;
         padding: 0;
@@ -25,18 +25,18 @@
     }
 
 
-.#{$sagovau-namespace}fixed-aspect-ratio--2x1 {
+.fixed-aspect-ratio--2x1 {
     padding-bottom: (1 / 2) * 100%;
 }
 
-.#{$sagovau-namespace}fixed-aspect-ratio--16x9 {
+.fixed-aspect-ratio--16x9 {
     padding-bottom: (9 / 16) * 100%;
 }
 
-.#{$sagovau-namespace}fixed-aspect-ratio--4x3 {
+.fixed-aspect-ratio--4x3 {
     padding-bottom: (3 / 4) * 100%;
 }
 
-.#{$sagovau-namespace}fixed-aspect-ratio--1x1 {
+.fixed-aspect-ratio--1x1 {
     padding-bottom: 100%;
 }
