@@ -19,6 +19,12 @@
     a {
         position: relative;
         display: block;
+        border-bottom: 0;
+
+        &:hover,
+        &:focus {
+            border-bottom: 0;
+        }
 
         &::after {
             content: ' ';
@@ -51,6 +57,15 @@
     align-self: center;
     font-family: $font-family-highlight;
     margin: 0;
+
+    a {
+        border-bottom: 0;
+
+        &:hover,
+        &:focus {
+            border-bottom: 0;
+        }
+    }
 }
 
 .publication__subtitle {
