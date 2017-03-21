@@ -26,11 +26,11 @@
     transition: background-color $transition-time ease, color $transition-time ease;
     padding: $spacing-unit-base;
 
-    .card-teaser__content:focus &,
-    .card-teaser__content:hover & {
-        background: $color-primary;
-        color: $color-text-reverse;
-    }
+    // .card-teaser__content:focus &,
+    // .card-teaser__content:hover & {
+    //     background: $color-primary;
+    //     color: $color-text-reverse;
+    // }
 }
 
 .card-teaser__url {
@@ -51,21 +51,42 @@
 
 
 .card-teaser__image {
-    background: $color-primary;
+    // background: $color-primary;
     flex-shrink: 0;
+    position: relative;
 
     img {
         height: auto;
         max-width: 100%;
         width: 100%;
-        transition: opacity $transition-time ease;
-        backface-visibility: hidden;
         vertical-align: middle;
+    }
 
-        .card-teaser__content:focus &,
-        .card-teaser__content:hover & {
-            opacity: 0.5;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 20;
+        background: rgba(0, 0, 0, 0);
+        overflow: hidden;
+        transition: all $transition-time;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+}
+
+.card-teaser:hover {
+    .card-teaser__image {
+        &::after {
+            background: rgba(14, 48, 80, 0.5);
         }
     }
 
+    .card-teaser__description {
+        background: $color-primary;
+        color: #fff;
+    }
 }
