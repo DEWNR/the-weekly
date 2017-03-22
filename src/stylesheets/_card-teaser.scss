@@ -25,7 +25,7 @@
 
     img {
         max-width: 100%;
-            height: inherit;
+        height: inherit;
         vertical-align: middle;
     }
 
@@ -34,7 +34,7 @@
         display: block;
         position: absolute;
         z-index: 20;
-        background: rgba(14, 48, 80, 0);
+        background: rgba($color-primary, 0);
         overflow: hidden;
         transition: all $transition-time;
         top: 0;
@@ -45,7 +45,7 @@
 
     .card-teaser:hover & {
         &::after {
-            background: rgba(14, 48, 80, 0.5);
+            background: rgba($color-primary, 0.5);
         }
     }
 }

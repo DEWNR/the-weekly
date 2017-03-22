@@ -7,14 +7,13 @@
         background: #fff;
         transition: background-color $transition-time ease;
 
-        &:focus,
-        &:hover {
-            background: $color-primary;
-        }
-
         @media (min-width: 768px) {
             generate-grid: columns(2/3 1/3);
             margin: 0 0 $spacing-unit-base;
+        }
+
+        &:hover {
+            background: $color-primary;
         }
 
     }
@@ -22,7 +21,6 @@
 
     .featured-post__image {
         position: relative;
-        background: $color-primary;
 
         img {
             width: 100%;
@@ -34,25 +32,25 @@
         }
 
         &::after {
-             content: '';
-             display: block;
-             position: absolute;
-             z-index: 20;
-             background: rgba($color-primary, 0);
-             overflow: hidden;
-             transition: background-color $transition-time ease;
-             top: 0;
-             right: 0;
-             bottom: 0;
-             left: 0;
-         }
+            content: '';
+            display: block;
+            position: absolute;
+            z-index: 20;
+            background: rgba($color-primary, 0);
+            overflow: hidden;
+            transition: all $transition-time;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
 
-         .featured-post__content:focus &,
-         .featured-post__content:hover & {
-             &::after {
-                 background: rgba($color-primary, 0.6);
-             }
-         }
+        .featured-post__content:hover & {
+            &::after {
+                background: rgba($color-primary, 0.5);
+            }
+        }
+
     }
 
     .featured-post__description {
@@ -62,23 +60,16 @@
     .featured-post__description-words {
         align-self: center;
         padding: $spacing-unit-base;
-        background: #fff;
-        transition: background-color $transition-time ease, color $transition-time ease;
+        transition: color $transition-time ease;
         color: $color-text-base;
-
-        .featured-post__content:focus &,
-        .featured-post__content:hover & {
-            background: $color-primary;
-            color: #fff;
-
-            @media (min-width: 768px) {
-                background: none;
-            }
-        }
 
         @media (min-width: 768px) {
             background: none;
             padding: $spacing-unit-base $spacing-unit-base $spacing-unit-base 0;
+        }
+
+        .featured-post__content:hover & {
+            color: #fff;
         }
 
         p {
