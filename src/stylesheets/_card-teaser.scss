@@ -6,6 +6,7 @@
 .card-teaser {
     position: relative;
     line-height: 1.2;
+    display: flex;
 
     a {
         outline: 0;
@@ -13,52 +14,18 @@
 }
 
 .card-teaser__content {
+    display: flex;
     flex-direction: column;
-    display: flex;
-    height: 100%;
+    flex: 1;
 }
-
-
-.card-teaser__description {
-    background: #fff;
-    height: 100%;
-    display: flex;
-    transition: background-color $transition-time ease, color $transition-time ease;
-    padding: $spacing-unit-base;
-
-    // .card-teaser__content:focus &,
-    // .card-teaser__content:hover & {
-    //     background: $color-primary;
-    //     color: $color-text-reverse;
-    // }
-}
-
-.card-teaser__url {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-
-.card-teaser__title {
-    @include font-size(13px 15px);
-    align-self: center;
-    font-family: $font-family-highlight;
-    margin: 0;
-}
-
 
 .card-teaser__image {
-    // background: $color-primary;
     flex-shrink: 0;
     position: relative;
 
     img {
-        height: auto;
         max-width: 100%;
-        width: 100%;
+            height: inherit;
         vertical-align: middle;
     }
 
@@ -67,7 +34,7 @@
         display: block;
         position: absolute;
         z-index: 20;
-        background: rgba(0, 0, 0, 0);
+        background: rgba(14, 48, 80, 0);
         overflow: hidden;
         transition: all $transition-time;
         top: 0;
@@ -76,17 +43,33 @@
         left: 0;
     }
 
-}
-
-.card-teaser:hover {
-    .card-teaser__image {
+    .card-teaser:hover & {
         &::after {
             background: rgba(14, 48, 80, 0.5);
         }
     }
+}
 
-    .card-teaser__description {
+
+.card-teaser__description {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    flex-grow: 1;
+    align-items: center;
+    transition: background-color $transition-time ease, color $transition-time ease;
+    padding: $spacing-unit-base;
+
+    .card-teaser:hover & {
         background: $color-primary;
         color: #fff;
     }
+}
+
+
+.card-teaser__title {
+    @include font-size(13px 15px);
+    align-self: center;
+    font-family: $font-family-highlight;
+    margin: 0;
 }
