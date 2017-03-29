@@ -51,6 +51,19 @@
 
 }
 
+.article__introduction {
+    a {
+        font-weight: bold;
+        border-bottom: 1px dashed $color-grey-1;
+
+        &:hover {
+            border: 0;
+            color: $color-primary;
+            border-bottom: 1px solid $color-grey-1;
+        }
+    }
+}
+
 .article__content {
     @include font-size(13px 15px);
 
