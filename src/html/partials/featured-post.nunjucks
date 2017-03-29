@@ -1,23 +1,25 @@
 <article class="featured-post">
 
-    <a class="featured-post__content" href="#">
+    <div class="featured-post__content">
 
         <div class="featured-post__image">
-            <img class="lazyload" data-sizes="auto" data-src="images/story_images1.jpg" data-srcset="images/160/story_images1.jpg 160w, images/320/story_images1.jpg 320w, images/480/story_images1.jpg 480w, images/story_images1.jpg 650w" width="650" height="372" src="images/160/story_images1.jpg">
+            <a class="featured-post__link" href="#"><img class="lazyload" data-sizes="auto" data-src="images/story_images1.jpg" data-srcset="images/160/story_images1.jpg 160w, images/320/story_images1.jpg 320w, images/480/story_images1.jpg 480w, images/story_images1.jpg 650w" width="650" height="372" src="images/160/story_images1.jpg"></a>
         </div>
 
         <div class="featured-post__description">
 
             <div class="featured-post__description-words">
 
-                <h2 itemprop="name" class="featured-post__title">Adelaide carbon neutral plan launched</h2>
-                <p>The next step to make Adelaide the world’s first carbon neutral city was taken yesterday, with the launch of the Carbon Neutral Adelaide Action Plan 2016-2021.</p>
+                <h2 itemprop="name" class="featured-post__title"><a class="featured-post__link" href="#">Adelaide carbon neutral plan launched</a></h2>
+                <p>The next step to make Adelaide the world’s first <a href="#">carbon neutral ci</a>ty was taken yesterday, with the launch of the Carbon Neutral Adelaide Action Plan 2016-2021.</p>
 
             </div>
 
         </div>
 
-    </a>
+        </a>
+
+    </div>
 
     <a href="#" class="tag  tag--News">News</a>
 

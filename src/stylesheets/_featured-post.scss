@@ -12,9 +12,9 @@
             margin: 0 0 $spacing-unit-base;
         }
 
-        &:hover {
-            background: $color-primary;
-        }
+        // &:hover {
+        //     background: $color-primary;
+        // }
 
     }
 
@@ -31,24 +31,24 @@
             vertical-align: middle;
         }
 
-        &::after {
-            content: '';
-            display: block;
-            position: absolute;
-            z-index: 20;
-            background: rgba($color-primary, 0);
-            overflow: hidden;
-            transition: all $transition-time;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-        }
+        // &::after {
+        //     content: '';
+        //     display: block;
+        //     position: absolute;
+        //     z-index: 20;
+        //     background: rgba($color-primary, 0);
+        //     overflow: hidden;
+        //     transition: all $transition-time;
+        //     top: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     left: 0;
+        // }
 
         .featured-post__content:hover & {
-            &::after {
-                background: rgba($color-primary, 0.5);
-            }
+            // &::after {
+            //     background: rgba($color-primary, 0.5);
+            // }
         }
 
     }
@@ -68,8 +68,15 @@
             padding: $spacing-unit-base $spacing-unit-base $spacing-unit-base 0;
         }
 
-        .featured-post__content:hover & {
-            color: #fff;
+        a {
+            font-weight: bold;
+            border-bottom: 1px dotted $color-text-base;
+
+            &:hover {
+                border: 0;
+                color: $color-primary;
+                border-bottom: 1px solid $color-primary;
+            }
         }
 
         p {
@@ -84,4 +91,14 @@
         margin: 0 0 $spacing-unit-base;
         padding-right: $spacing-unit-base;
         line-height: 1.1;
+
+        a {
+            color: $color-text-base;
+            border: 0;
+
+            &:hover {
+                border: 0;
+                color: $color-primary;
+            }
+        }
     }
