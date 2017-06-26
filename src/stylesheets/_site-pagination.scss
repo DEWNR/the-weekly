@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    #SITE-PAGINATION
+\*------------------------------------*/
+
+
+.site-pagination {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.site-pagination__result {
+    display: inline-block;
+}
+
+.site-pagination__jumpto {
+    display: inline-block;
+    float: right;
+}

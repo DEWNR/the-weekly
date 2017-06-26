@@ -1,0 +1,60 @@
+/* == Settings == */
+@import 'variables';
+
+
+/* == Tools == */
+@import 'tools/font-size';
+
+
+/* == Generic == */
+@import 'generic/dewnrgr';
+@import 'generic/box-sizing';
+@import 'generic/normalize';
+@import 'generic/reset';
+@import 'generic/shared';
+
+
+@import 'page';
+@import 'article';
+@import 'article-search';
+@import 'card-block';
+@import 'card-list';
+@import 'card-teaser';
+@import 'featured-post';
+@import 'fixed-aspect-ratio';
+@import 'mask';
+@import 'site-background';
+@import 'site-content';
+@import 'site-hero';
+@import 'tag';
+
+
+html {
+    background: #eee;
+}
+
+
+.content-form {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-form__textarea {
+    width: 600px;
+    background: #fff;
+    border: #ccc;
+    margin: 0 0 20px;
+    outline: 0;
+    padding: 10px;
+}
+
+
+.content-form__text {
+    width: 600px;
+    background: #fff;
+    border: #ccc;
+    outline: 0;
+    padding: 10px;
+}

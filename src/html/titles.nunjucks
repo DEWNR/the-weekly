@@ -1,0 +1,113 @@
+{% set css_path = 'css/' %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <link rel="stylesheet" href="{{ css_path }}titles.css">
+    </head>
+    <body>
+
+        <div class="content-form">
+
+            <textarea class="content-form__textarea">The next step to make Adelaide the world’s first carbon neutral city was taken yesterday, with the launch of the Carbon Neutral Adelaide Action Plan 2016-2021.</textarea>
+
+            <input class="content-form__text" type="text" value="Adelaide carbon neutral plan launched">
+
+        </div>
+
+        <div class="site-content">
+
+
+            <div class="site-hero">
+
+                <div class="site-hero__content">
+
+                    <article class="featured-post">
+
+                        <div class="featured-post__content">
+
+                            <div class="featured-post__image">
+                                <a class="featured-post__link" href="#"><img src="http://placehold.it/650x372"></a>
+                            </div>
+
+                            <div class="featured-post__description">
+
+                                <div class="featured-post__description-words">
+
+                                    <h2 itemprop="name" class="featured-post__title"><a class="featured-post__link" href="#"></a></h2>
+                                    <p></p>
+
+                                </div>
+
+                            </div>
+
+                            </a>
+
+                        </div>
+
+                        <a href="#" class="tag  tag--News">News</a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <div class="site-content__inner">
+
+                <main class="site-content__main" role="main">
+
+                    <section class="card-list" itemscope itemtype="http://schema.org/ItemList">
+
+                        <article class="card-teaser  card-teaser--blog" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+
+                            <a class="card-teaser__content" href="#" itemprop="url">
+
+                                <div class="card-teaser__image">
+                                    <img src="http://placehold.it/650x372">
+                                </div>
+
+                                <div class="card-teaser__description">
+                                    <h2 itemprop="name" class="card-teaser__title"></h2>
+                                </div>
+
+                            </a>
+
+                            <a href="#" class="tag  tag--News">News</a>
+
+                        </article>
+
+                    </section>
+
+                </main>
+
+            </div>
+
+
+        </div>
+
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script>
+
+            $('p', '.featured-post__description-words').text($('.content-form__textarea').val());
+            $('.featured-post__link', '.featured-post__title').text($('.content-form__text').val());
+            $('.card-teaser__title').text($('.content-form__text').val());
+
+            $('.content-form__textarea').keyup(function() {
+                $('p', '.featured-post__description-words').text($(this).val());
+            });
+
+            $('.content-form__text').keyup(function() {
+                $('.featured-post__link', '.featured-post__title').text($(this).val());
+                $('.card-teaser__title').text($(this).val());
+            });
+
+        </script>
+    </body>
+</html>
