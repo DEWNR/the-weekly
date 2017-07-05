@@ -107,6 +107,18 @@
 
 </div>
 
+<div class="card-block">
+
+    <div class="card-block__content">
+
+        <a class="card-block__url  card-block__url--training" href="#">
+            <em class="card-block__more">Read previous</em> <span class="card-block__tag">Training</span>
+        </a>
+
+    </div>
+
+</div>
+
 <div class="card-block  card-block--text">
 
     <div class="card-block__content">
