@@ -1,14 +1,24 @@
+const critical = require('critical')
+const gulp     = require('gulp')
 
-var gulp         = require('gulp')
-var critical = require('critical').stream;
+const criticalTask = (cb) => {
 
-var criticalTask = function(cb) {
-
-    return gulp.src('public/*.html')
-        .pipe(critical({base: 'public/', inline: true, minify: true, css: ['public/css/main.css']}))
-        .pipe(gulp.dest('public'));
+  return critical.generate({
+    inline: true,
+    base: 'public/',
+    src: 'index.html',
+    dest: 'index.html',
+    minify: true,
+    ignore: ['@font-face'],
+    dimensions: [{
+      width: 375,
+      height: 667
+    }, {
+      width: 1300,
+      height: 900
+    }]
+  });
 }
 
 gulp.task('critical', criticalTask)
-
 module.exports = criticalTask
