@@ -30,10 +30,14 @@
 
 
 .subscribe-form__input {
-    font-family: $font-family-base;
+    font-family: sans-serif;
     font-weight: 300;
     color: $color-text-base;
     line-height: 1.5;
+
+    .fonts-stage-1 & {
+        font-family: $font-family-base;
+    }
 
     @media screen and (max-width: 768px) {
         display: block;

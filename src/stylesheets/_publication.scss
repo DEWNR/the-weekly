@@ -55,8 +55,12 @@
     @include font-size(13px 15px);
     color: $color-primary;
     align-self: center;
-    font-family: $font-family-highlight;
+    font-family: sans-serif;
     margin: 0;
+
+    .fonts-stage-2 & {
+        font-family: $font-family-highlight;
+    }
 
     a {
         border-bottom: 0;

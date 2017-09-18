@@ -5,12 +5,16 @@
 
 html {
     @include font-size();
-    font-family: $font-family-base;
+    font-family: sans-serif;
     font-weight: 300;
     color: $color-text-base;
     line-height: 1.5;
     overflow-y: scroll;
     height: 100%;
+
+    &.fonts-stage-1 {
+        font-family: $font-family-base;
+    }
 }
 
 body {

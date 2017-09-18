@@ -21,9 +21,13 @@
 .article__title {
     @include font-size(30px 40px);
     color: $color-text-base;
-    font-family: $font-family-highlight;
+    font-family: sans-serif;
     margin-bottom: $spacing-unit-base;
     line-height: 1.2;
+
+    .fonts-stage-2 & {
+        font-family: $font-family-highlight;
+    }
 }
 
 .article__image {

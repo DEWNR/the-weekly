@@ -39,6 +39,7 @@
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+        <script src="{{ js_path }}plugins.js"></script>
         <script src="{{ js_path }}app.js"></script>
 
     </body>

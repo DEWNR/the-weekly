@@ -14,7 +14,13 @@
               {
                 "source": [
                     "src/javascripts/lazysizes.js",
-                    "src/javascripts/mobile-menu.js",
+                    "./node_modules/fontfaceobserver/fontfaceobserver.js",
+                    "src/javascripts/mobile-menu.js"
+                ],
+                "filename": "plugins.js"
+            },{
+                "source": [
+                    "src/javascripts/font-loader.js",
                     "src/javascripts/subscribe-form.js",
                     "src/javascripts/main.js"
                 ],

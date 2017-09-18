@@ -71,6 +71,10 @@
 .card-teaser__title {
     @include font-size(13px 15px);
     align-self: center;
-    font-family: $font-family-highlight;
+    font-family: sans-serif;
     margin: 0;
+
+    .fonts-stage-2 & {
+        font-family: $font-family-highlight;
+    }
 }

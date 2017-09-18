@@ -87,10 +87,14 @@
 
     .featured-post__title {
         @include font-size(30px 40px);
-        font-family: $font-family-highlight;
+        font-family: sans-serif;
         margin: 0 0 $spacing-unit-base;
         padding-right: $spacing-unit-base;
         line-height: 1.1;
+
+        .fonts-stage-2 & {
+            font-family: $font-family-highlight;
+        }
 
         a {
             color: $color-text-base;

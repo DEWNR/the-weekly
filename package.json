@@ -46,5 +46,8 @@
     "rucksack": "2.3.4"
   },
   "license": "CC-BY-4.0",
-  "author": "The DEWNR Internet Team <DEWNR.Internet@sa.gov.au>"
+  "author": "The DEWNR Internet Team <DEWNR.Internet@sa.gov.au>",
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13"
+  }
 }
