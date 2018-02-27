@@ -8,6 +8,8 @@
         <li class="social__item"><a aria-label="Tweet about this article" class="social__link social__link--twitter js-tweet  ga-tweet  ga-tweet--upper" href="#" target="blank" title="Tweet about this article"></a></li>
 
         <li class="social__item"><a aria-label="Share this on Facebook" class="social__link social__link--facebook  ga-facebook  ga-facebook--upper" href="#" target="blank" title="Share this on Facebook"></a></li>
+        
+        <li class="social__item"><a aria-label="Share this on LinkedIn" class="social__link social__link--linkedin  ga-linkedin  ga-linkedin--upper" href="#" target="blank" title="Share this on LinkedIn"></a></li>
 
         <li class="social__item  u-js-only"><button aria-label="Email this article to your friends" class="social__link social__link--email  ga-email  ga-email--upper" data-js="email" title="Email this article to your friends" type="button"></button></li>
 
