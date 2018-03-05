@@ -44,10 +44,13 @@
     {% include "partials/social.nunjucks" %}
 
 
+    <!-- No longer using the updated date
     <footer class="article__footer">
 
         <p>This article was updated on <time itemprop="dateModified" datetime="2015-03-01">March 30, 2015</time></p>
 
     </footer>
+    -->
+
 
 </article>
