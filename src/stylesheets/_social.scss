@@ -30,7 +30,7 @@
             /*a*/.social__link {
                 background: {
                     color: $color-secondary;
-                    image: url(#{$image-path}weekly-social-sprite.svg);
+                    image: url(#{$image-path}weekly-social-sprite.svg?v=1);
                 }
                 border:         none;
                 border-radius:  50%;
@@ -59,7 +59,7 @@
             .social__link--print {
                 background-position: 0 -108px;
             }
-            
+
             .social__link--linkedin {
                 background-position: 0 -144px;
             }
