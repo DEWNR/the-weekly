@@ -12,7 +12,7 @@
 
                 <a class="site-header__item  site-header__item--partner-logo  site-header__item--sa-logo" href="http://www.southaustralia.com"><img src="{{ image_path }}south-australia-logotype.svg" alt="South Australia"></a>
 
-                <a class="site-header__item  site-header__item--partner-logo  site-header__item--dewnr-logo" href="http://www.environment.sa.gov.au"><img alt="Department of Environment, Water and Natural Resources" class="u-hidden u-display-inline-block-retina" src="{{ image_path }}dewnr-logotype.svg"></a>
+                <a class="site-header__item  site-header__item--partner-logo  site-header__item--dewnr-logo" href="http://www.environment.sa.gov.au"><img alt="Department of Environment, Water and Natural Resources" class="u-hidden u-display-inline-block-retina" src="{{ image_path }}dew-logotype.svg"></a>
 
             </div>
 
