@@ -69,7 +69,8 @@
 }
 
 .article__content {
-    @include font-size(13px 15px);
+    // Removed because if IE11 bugs between tablet and laptop size
+    // @include font-size(13px 15px);
 
     a {
         font-weight: bold;
