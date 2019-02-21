@@ -77,4 +77,8 @@
     .fonts-stage-2 & {
         font-family: $font-family-highlight;
     }
+
+    .site-content__complementary {
+        align-self: flex-start;
+    }
 }
