@@ -1,0 +1,54 @@
+.wrapper__acknowledgement {
+    background-image: url(https://www.environment.sa.gov/files/sharedassets/public/images/bg_footer.jpg);
+    background-position: 50%;
+    background-size: cover;
+
+    .wrapper__acknowledgement__inner {
+        background-color: hsla(30,8%,90%,.8);
+    }
+}
+
+
+.acknowledgement__content {
+
+    padding: $spacing-unit-base;
+
+    @media (min-width: 768px) {
+        padding: 0;
+    }
+
+    .acknowledgement__image {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        color: #000;
+        font-size: 1rem;
+        background-color: #e8e8e8;
+        overflow: hidden;
+
+
+        @media (min-width: 768px) {
+            width: calc( 33.3% - (#{$spacing-unit-base} - #{$spacing-unit-base} * 1/3) );
+            margin-top: $spacing-unit-base;
+            margin-right: $spacing-unit-base;
+            margin-bottom: $spacing-unit-base;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    .acknowledgement__description {
+        display: inline-block;
+        color: #000;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        margin-top: $spacing-unit-base;
+
+        @media (min-width: 768px) {
+            width: calc( 66.6% - (#{$spacing-unit-base} - #{$spacing-unit-base} * 1/3) );
+        }
+    }
+}
