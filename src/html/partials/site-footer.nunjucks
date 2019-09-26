@@ -1,3 +1,43 @@
+
+<div class="wrapper__acknowledgement">
+    <div class="wrapper__acknowledgement__inner">
+        <div class="site-footer__container">
+
+
+
+                <div class="site-footer__acknowledgement">
+
+                    <div class="acknowledgement__content">
+                        <div class="acknowledgement__image">
+
+                            <img src="images/acknowledgement-of-country.jpg?w=300"
+                             alt="Acknowledgement of Country"
+                             class="lazyload"
+                             sizes="(min-width: 768px) calc(66.6vw - 4em),
+                                100vw"
+                             data-srcset="images/acknowledgement-of-country.jpg?w=300 1x,
+                             images/acknowledgement-of-country.jpg?w=720 2x">
+
+                        </div>
+                        <div class="acknowledgement__description">
+                            <h2 class="acknowledgement__title">Acknowledgement of Country</h2>
+                            <p>The Department for Environment and Water acknowledges Aboriginal
+            people as the First Peoples and Nations of the lands and waters we live and
+            work upon and we pay our respects to their Elders past, present and emerging.
+            We acknowledge and respect the deep spiritual connection and the relationship
+            that Aboriginal and Torres Strait Islander people have to Country.</p>
+                            <p>The Department works in partnership with the First Peoples of South Australia
+            and supports their Nations to take a leading role in caring for their Country.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+        </div>
+    </div>
+</div>
+
 <footer class="site-footer">
 
     <div class="site-footer__container">

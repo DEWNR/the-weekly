@@ -12,7 +12,7 @@
         font-size: 0;
         line-height: 1;
         margin: 0 auto;
-        max-width: 1004px;
+        max-width: 1024px;
 
         &::after {
             content: '';
@@ -76,6 +76,8 @@
             position: relative;
             display: inline-block;
             width: 100%;
+            margin-left: $spacing-unit-base/2;
+            margin-right: $spacing-unit-base/2;
 
             @media (min-width: 768px) {
                 width: auto;
